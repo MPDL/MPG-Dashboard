@@ -1,0 +1,7 @@
+shiny
+matplotlib
+psycopg2
+pandas
+python-dotenv
+functools
+seaborn
