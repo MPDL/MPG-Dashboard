@@ -48,17 +48,20 @@ def delete_pdf():
 
 
 def full_workflow_time_period(publication_year):
+    print(f'starting process for year: {publication_year}')
+    print('full_workflow_time_period()')
     db_manager = DatabaseManager()
     db_manager.connect()
     publications= db_manager.get_unevaluated_papers_publication_year(publication_year)
-    for publication in publications:
-        urls = db_manager.get_urls_by_publication_id(publication["object_id"])
-        print(f"URLs: {urls}, Type of URLs: {type(urls)}")
+    print(f'    these are the unevaluated publications yor year {publication_year}: {publications}')
+    # for publication in publications:
+    #     urls = db_manager.get_urls_by_publication_id(publication["object_id"])
+    #     print(f"URLs: {urls}, Type of URLs: {type(urls)}")
         
-        if urls:
-            print(f"Entered if condition with urls: {urls}")
-            eval_paper(publication, urls, db_manager)
-            break
+    #     if urls:
+    #         print(f"Entered if condition with urls: {urls}")
+    #         eval_paper(publication, urls, db_manager)
+    #         break
     db_manager.close()
 
 
