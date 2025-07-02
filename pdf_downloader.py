@@ -1,7 +1,6 @@
-import requests
-import json
-import os
 import uuid
+
+import requests
 
 def save_url_to_file(urls, destination, filename):
     print("URL: ", urls," Filename: ", filename)
@@ -13,6 +12,7 @@ def save_url_to_file(urls, destination, filename):
             response = requests.get(url)
             print(response.status_code)
             response.raise_for_status()  # Raise an exception for 4xx and 5xx status codes
+            
             if 'application/pdf' in response.headers.get('Content-Type', ''):
                 try:
                     #print("Saving PDF: ", filename, " from URL: ", url, " with content length of: ", len(response.content))
