@@ -90,11 +90,13 @@ class DatabaseManager:
 
     def get_urls_by_publication_id(self, publication_id):
         self.cursor.execute("SELECT pdf_link FROM publication_pdf_links WHERE pure_id = %s", (publication_id,))
-        return self.cursor.fetchall()  # returns list of dicts with 'pdf_link' keys
+        list_of_dicts = self.cursor.fetchall()  # returns list of dicts with 'pdf_link' keys
+        
+        return [d['pdf_link'] for d in list_of_dicts] 
 
     def get_unevaluated_papers_publication_year(self, publication_year):
         self.cursor.execute(
-            "SELECT * FROM publications WHERE publication_year = %s AND open_data IS NULL",
+            "SELECT * FROM publications WHERE year = %s AND open_data IS NULL",
             (publication_year,)
         )
         return self.cursor.fetchall()  # returns list of dicts
