@@ -1,7 +1,6 @@
 import time
 import json
 
-from selenium import webdriver
 from concurrent import futures
 
 from openalex import (
@@ -10,10 +9,10 @@ from openalex import (
     filter_json_for_article_name_and_year, 
     fetch_result_based_on_doi
 )
-from closed_access.find_closed_acces_links import find_paper_url, quit_driver
+from closed_access.find_closed_acces_links import find_paper_url
 from PuRe import get_paper_for_time_period
 from db import DatabaseManager
-# from pdf_downloader import save_url_to_file
+from selenium_driver.selenium_driver import instanciate_driver, quit_driver
 
 def full_workflow(doi, title, publication_year, db_manager, pure_id, genre, publisher, publication_date):
     '''Enrich publication with data from OpenAlex: get open access status, pdf link(s). 
@@ -26,8 +25,9 @@ def full_workflow(doi, title, publication_year, db_manager, pure_id, genre, publ
     print(f'    DOI: {doi}, pure_id: {pure_id}')
     print(f'    title: {title}')
 
-    # pure_ids = ['item_3309388']
+    # pure_ids = ["item_3309388"]
     # for id_ in pure_ids:
+    #     print(f'    deleting id_: {id_}')
     #     db_manager.delete_pdf_links_by_id(id_)
 
     # check if the publication is already in the database
@@ -102,16 +102,8 @@ def title_only_available_workflow(title, publication_year):
 def closed_access_workflow(article_urls):
     '''For OpenAlex work entries without a pdf_link, use their landing page to search for pdf links. '''
     
-    # selenium 
-    options = webdriver.ChromeOptions()
-    options.add_argument('--ignore-ssl-errors=yes')
-    options.add_argument('--ignore-certificate-errors')
-    driver = webdriver.Remote(
-        command_executor='http://172.19.0.3:4444/wd/hub',
-        options=options
-    )
-    
     urls = []
+    driver = instanciate_driver()
 
     for article_url in article_urls:
         paper_urls = find_paper_url(article_url, driver)

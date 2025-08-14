@@ -213,7 +213,3 @@ def find_paper_url(home_url, driver):
 #     file.write(home_url + '\n')
 #     file.close()
 #     return False
-
-
-def quit_driver(driver):
-    driver.quit()
