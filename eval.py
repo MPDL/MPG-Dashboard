@@ -3,6 +3,12 @@ import json
 import os
 
 def eval_file_software_mentions(filename):
+    '''For open access publications, evaluate:
+    - software use
+    - software creation
+    - software sharing
+    '''
+    
     print("Filename: ", filename)
     try:
         if filename.endswith(".pdf"):
@@ -31,6 +37,12 @@ def eval_file_software_mentions(filename):
         return infos
 
 def eval_data_mentions(filename):
+    '''For open access publications, evaluate:
+    - data use
+    - data creation
+    - data sharing
+    '''
+    
     try:
         used = False
         created= False

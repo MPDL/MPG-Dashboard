@@ -3,9 +3,12 @@ import uuid
 import requests
 
 def save_url_to_file(urls, destination, filename):
+    '''For open access publications, request pdf and save it for evaluation.
+    After completion, pdf will be deleted.
+    '''
+    
     print("URL: ", urls," Filename: ", filename)
-    #print(urls)
-    #print(filename)
+    
     for url_dict in urls:
         try:
             url = url_dict["pdf_link"] 

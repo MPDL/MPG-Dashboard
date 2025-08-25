@@ -1,8 +1,5 @@
 # MPG-Dashboard
 
-## 0. Containerized Setup
-https://github.com/lauraBahamon/os-monitor-docker-stack
-
 ## 1. WORKFLOWS
 
 ### 1.1 DATA EXTRACTION
@@ -13,10 +10,9 @@ Request [PuRe](https://pure.mpg.de/) publications and enrich them with [OpenAlex
 ### 1.2. EVALUATION
 -> full_workflow_evaluation.py
 
-Request publications' pdf link(s) and analize data openness (software and data).
+Evaluate software and data use, creation and sharing. Evaluation workflow depends on open access status. Currently, only the open access workflow exists. 
 
-## 2. EVALUATION MODEL
+## 2. CURRENT EVALUATION MODELS
 -> https://github.com/softcite
-
 
 

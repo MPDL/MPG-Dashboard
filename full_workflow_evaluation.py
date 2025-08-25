@@ -10,12 +10,14 @@ def eval_paper(publication, urls, db_manager):
         closed_access_workflow(publication, urls)
 
 def open_access_workflow(publication, urls, db_manager):
+    '''For open access publications, get the pdf and evaluate software and data use, creation and sharing'''
+    
     destination = "./pdf/"
     successful_download = save_url_to_file(urls, destination, publication["title"])
     if successful_download is not None:
         software_evaluation = eval_file_software_mentions(successful_download)
         data_evaluation = eval_data_mentions(successful_download)
-        print("Software evaluation: ", software_evaluation)
+        
         db_manager.put_software_sharing_status(
             publication["object_id"],
             software_evaluation["software_used"],
@@ -30,10 +32,11 @@ def open_access_workflow(publication, urls, db_manager):
         delete_pdf()
         
 def closed_access_workflow(publication, urls):
-    #TODO: Implement closed access workflow
+    # TODO: Implement closed access workflow
     pass
 
 def delete_pdf():
+    '''Delete downloaded publication pdf after evaluation'''
     folder = './pdf/'
     for filename in os.listdir(folder):
         file_path = os.path.join(folder, filename)
@@ -48,20 +51,18 @@ def delete_pdf():
 
 
 def full_workflow_time_period(publication_year):
-    print(f'starting process for year: {publication_year}')
-    print('full_workflow_time_period()')
+    '''Request publications by year and evaluate data and software use, creation and sharing'''
+    
     db_manager = DatabaseManager()
     db_manager.connect()
     publications= db_manager.get_unevaluated_papers_publication_year(publication_year)
-    print(f'    these are the unevaluated publications yor year {publication_year}: {publications}')
-    # for publication in publications:
-    #     urls = db_manager.get_urls_by_publication_id(publication["object_id"])
-    #     print(f"URLs: {urls}, Type of URLs: {type(urls)}")
+    for publication in publications:
+        urls = db_manager.get_urls_by_publication_id(publication["object_id"])
+        print(f"URLs: {urls}, Type of URLs: {type(urls)}")
         
-    #     if urls:
-    #         print(f"Entered if condition with urls: {urls}")
-    #         eval_paper(publication, urls, db_manager)
-    #         break
+        if urls:
+            eval_paper(publication, urls, db_manager)
+            break
     db_manager.close()
 
 
