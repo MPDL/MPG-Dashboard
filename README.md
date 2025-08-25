@@ -12,7 +12,7 @@ Request [PuRe](https://pure.mpg.de/) publications and enrich them with [OpenAlex
 
 Evaluate software and data use, creation and sharing. Evaluation workflow depends on open access status. Currently, only the open access workflow exists. 
 
-## 2. CURRENT EVALUATION MODELS
+## 2. CURRENT EVALUATION MODEL
 -> https://github.com/softcite
 
 
