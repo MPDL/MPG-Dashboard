@@ -1,5 +1,9 @@
 # MPG-Dashboard
 
+This project aims at giving an overview of software and data use, creation and sharing in the Max Planck Society (MPG) in the context of Open Science. 
+
+Publication information comes from [PuRe](https://pure.mpg.de/), the publication repository of the MPG. [OpenAlex](https://openalex.org/about), a catalog of the world's scholarly research system, is used to enrich publication information, and Open Science evaluation is made with [Softcite](https://github.com/softcite), a model that extracts software and data mentions from publications' text.
+
 ## 1. WORKFLOWS
 
 ### 1.1 DATA EXTRACTION
