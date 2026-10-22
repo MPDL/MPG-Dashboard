@@ -1,0 +1,111 @@
+{
+    "id": "https://openalex.org/W7212483581",
+    "title": "Learning reorganizes dendritic and stabilizes axon initial segment inhibitory synapses in CA1 pyramidal neurons",
+    "type": "article",
+    "publication_year": 2026,
+    "open_access": {
+        "is_oa": true,
+        "oa_status": "gold",
+        "oa_url": "https://www.nature.com/articles/s41467-026-77800-w.pdf",
+        "any_repository_has_fulltext": true
+    },
+    "locations": [
+        {
+            "id": "doi:10.1038/s41467-026-77800-w",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1038/s41467-026-77800-w",
+            "pdf_url": "https://www.nature.com/articles/s41467-026-77800-w.pdf",
+            "source": {
+                "id": "https://openalex.org/S64187185",
+                "display_name": "Nature Communications",
+                "issn_l": "2041-1723",
+                "issn": ["2041-1723"],
+                "is_oa": true,
+                "is_in_doaj": true,
+                "is_core": true,
+                "listed_in": [
+                    "cwts-core",
+                    "doaj",
+                    "doyens",
+                    "jufo-3",
+                    "medline",
+                    "norway-2"
+                ],
+                "host_organization": "https://openalex.org/P4310319908",
+                "host_organization_name": "Nature Portfolio",
+                "host_organization_lineage": [
+                    "https://openalex.org/P4310319908",
+                    "https://openalex.org/P4310319965"
+                ],
+                "host_organization_lineage_names": [
+                    "Nature Portfolio",
+                    "Springer Nature"
+                ],
+                "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Nature Communications",
+            "raw_type": "journal-article"
+        },
+        {
+            "id": "pmid:42736304",
+            "is_oa": false,
+            "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/42736304",
+            "pdf_url": null,
+            "source": {
+                "id": "https://openalex.org/S4306525036",
+                "display_name": "PubMed",
+                "issn_l": null,
+                "issn": null,
+                "is_oa": false,
+                "is_in_doaj": false,
+                "is_core": false,
+                "listed_in": [],
+                "host_organization": "https://openalex.org/I1299303238",
+                "host_organization_name": "National Institutes of Health",
+                "host_organization_lineage": ["https://openalex.org/I1299303238"],
+                "host_organization_lineage_names": [],
+                "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Nature communications",
+            "raw_type": "Journal Article"
+        },
+        {
+            "id": "pmh:oai:pubmedcentral.nih.gov:13575122",
+            "is_oa": true,
+            "landing_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13575122/",
+            "pdf_url": null,
+            "source": {
+                "id": "https://openalex.org/S2764455111",
+                "display_name": "PubMed Central",
+                "issn_l": null,
+                "issn": null,
+                "is_oa": true,
+                "is_in_doaj": false,
+                "is_core": false,
+                "listed_in": [],
+                "host_organization": "https://openalex.org/I1299303238",
+                "host_organization_name": "National Institutes of Health",
+                "host_organization_lineage": ["https://openalex.org/I1299303238"],
+                "host_organization_lineage_names": [],
+                "type": "repository"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "Nat Commun",
+            "raw_type": "Text"
+        }
+    ]
+}

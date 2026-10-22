@@ -1,0 +1,168 @@
+{
+    "numberOfRecords": 640,
+    "records": [
+        {
+            "data": {
+                "objectId": "item_3509725",
+                "versionNumber": 2,
+                "modificationDate": "2025-07-31T06:46:32.946+00:00",
+                "versionState": "RELEASED",
+                "versionPid": "hdl:21.11116/0000-0011-8BCE-9",
+                "modifier": {
+                    "objectId": "user_2053302"
+                },
+                "lastModificationDate": "2025-07-31T06:46:32.946+00:00",
+                "publicState": "RELEASED",
+                "objectPid": "hdl:21.11116/0000-000D-1AD0-B",
+                "creator": {
+                    "objectId": "user_2053302"
+                },
+                "context": {
+                    "objectId": "ctx_2023287",
+                    "name": "Publications of the MPI for Empirical Aesthetics",
+                    "lastModificationDate": "2025-08-25T09:46:20.338+00:00",
+                    "creationDate": "2014-05-08T07:08:05.831+00:00",
+                    "creator": {
+                        "objectId": "user_user42"
+                    },
+                    "modifier": {
+                        "objectId": "user_2053302"
+                    }
+                },
+                "creationDate": "2023-05-11T12:35:04.084+00:00",
+                "latestRelease": {
+                    "objectId": "item_3509725",
+                    "versionNumber": 2,
+                    "modificationDate": "2025-07-31T06:46:32.946+00:00",
+                    "versionState": "RELEASED",
+                    "versionPid": "hdl:21.11116/0000-0011-8BCE-9",
+                    "modifier": {
+                        "objectId": "user_2053302"
+                    }
+                },
+                "latestVersion": {
+                    "objectId": "item_3509725",
+                    "versionNumber": 2,
+                    "modificationDate": "2025-07-31T06:46:32.946+00:00",
+                    "versionState": "RELEASED",
+                    "versionPid": "hdl:21.11116/0000-0011-8BCE-9",
+                    "modifier": {
+                        "objectId": "user_2053302"
+                    }
+                },
+                "localTags": [],
+                "metadata": {
+                    "title": " \"A body composed of many parts\": The concept of harmony in Leonardo da Vinci’s Paragone",
+                    "creators": [
+                        {
+                            "person": {
+                                "givenName": "David E.",
+                                "familyName": "Cohen",
+                                "organizations": [
+                                    {
+                                        "identifier": "ou_3006892",
+                                        "name": "Research Group Histories of Music, Mind, and Body, Max Planck Institute for Empirical Aesthetics, Max Planck Society",
+                                        "identifierPath": [
+                                            "ou_3006892",
+                                            "ou_1950293",
+                                            "ou_persistent13"
+                                        ]
+                                    }
+                                ],
+                                "identifier": {
+                                    "id": "/persons/resource/persons240313",
+                                    "type": "CONE"
+                                }
+                            },
+                            "role": "AUTHOR",
+                            "type": "PERSON"
+                        }
+                    ],
+                    "datePublishedInPrint": "2023-05-24",
+                    "datePublishedOnline": "2023-05-24",
+                    "genre": "BOOK_ITEM",
+                    "identifiers": [
+                        {
+                            "id": "10.4324/9781003029380-3",
+                            "type": "DOI"
+                        }
+                    ],
+                    "languages": [
+                        "eng"
+                    ],
+                    "sources": [
+                        {
+                            "title": "Music and visual culture in Renaissance Italy",
+                            "creators": [
+                                {
+                                    "person": {
+                                        "givenName": "Chriscinda",
+                                        "familyName": "Henry"
+                                    },
+                                    "role": "EDITOR",
+                                    "type": "PERSON"
+                                },
+                                {
+                                    "person": {
+                                        "givenName": "Tim",
+                                        "familyName": "Shephard"
+                                    },
+                                    "role": "EDITOR",
+                                    "type": "PERSON"
+                                }
+                            ],
+                            "startPage": "15",
+                            "endPage": "29",
+                            "publishingInfo": {
+                                "place": "London",
+                                "publisher": "Routledge Taylor & Francis Ltd"
+                            },
+                            "identifiers": [
+                                {
+                                    "id": "978-0-367-46539-1 ",
+                                    "type": "ISBN"
+                                }
+                            ],
+                            "genre": "BOOK",
+                            "totalNumberOfPages": "368"
+                        }
+                    ],
+                    "totalNumberOfPages": "15"
+                },
+                "files": [
+                    {
+                        "objectId": "file_3536685",
+                        "name": "gea0112.pdf",
+                        "lastModificationDate": "2025-09-04T14:27:01.146+00:00",
+                        "creationDate": "2023-10-10T13:49:51.022+00:00",
+                        "creator": {
+                        "objectId": "user_3053228"
+                        },
+                        "visibility": "PUBLIC",
+                        "pid": "hdl:21.11116/0000-000D-C7AA-3",
+                        "content": "/rest/items/item_3536683_2/component/file_3536685/content",
+                        "storage": "INTERNAL_MANAGED",
+                        "checksum": "abe5af1be071b6393297d0bd76f1f178",
+                        "checksumAlgorithm": "MD5",
+                        "mimeType": "application/pdf",
+                        "size": 563317,
+                        "metadata": {
+                            "title": "gea0112.pdf",
+                            "contentCategory": "publisher-version",
+                            "description": "OA",
+                            "formats": [
+                                {
+                                "value": "application/pdf",
+                                "type": "dcterms:IMT"
+                                }
+                            ],
+                            "size": 0,
+                            "license": "https://creativecommons.org/licenses/by/4.0/"
+                        }
+                    }
+                ]
+            },
+            "persistenceId": "item_3509725_2"
+        }
+    ]
+}

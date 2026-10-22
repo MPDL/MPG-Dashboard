@@ -1,0 +1,140 @@
+{
+    "numberOfRecords": 8640,
+    "records": [
+        {
+            "data": {
+                "objectId": "item_3487124",
+                "versionNumber": 1,
+                "modificationDate": "2023-01-23T17:31:45.276+00:00",
+                "versionState": "RELEASED",
+                "versionPid": "hdl:21.11116/0000-000C-722F-0",
+                "modifier": {
+                    "objectId": "user_2283703"
+                },
+                "lastModificationDate": "2023-01-23T17:31:45.276+00:00",
+                "publicState": "RELEASED",
+                "objectPid": "hdl:21.11116/0000-000C-722E-1",
+                "creator": {
+                    "objectId": "user_3007334"
+                },
+                "context": {
+                    "objectId": "ctx_2095734",
+                    "name": "MPIWG  General",
+                    "lastModificationDate": "2026-03-03T12:03:00.907+00:00",
+                    "creationDate": "2015-02-18T09:24:04.007+00:00",
+                    "creator": {
+                        "objectId": "user_user42"
+                    },
+                    "modifier": {
+                        "objectId": "user_2283703"
+                    }
+                },
+                "creationDate": "2023-01-23T11:37:28.400+00:00",
+                "latestRelease": {
+                    "objectId": "item_3487124",
+                    "versionNumber": 1,
+                    "modificationDate": "2023-01-23T17:31:45.276+00:00",
+                    "versionState": "RELEASED",
+                    "versionPid": "hdl:21.11116/0000-000C-722F-0",
+                    "modifier": {
+                        "objectId": "user_2283703"
+                    }
+                },
+                "latestVersion": {
+                    "objectId": "item_3487124",
+                    "versionNumber": 1,
+                    "modificationDate": "2023-01-23T17:31:45.276+00:00",
+                    "versionState": "RELEASED",
+                    "versionPid": "hdl:21.11116/0000-000C-722F-0",
+                    "modifier": {
+                        "objectId": "user_2283703"
+                    }
+                },
+                "localTags": [],
+                "metadata": {
+                    "title": "\"Incepit quasi a se\": Averroes on Avicenna's Philosophy in the Long Commentary on the De anima",
+                    "creators": [
+                        {
+                            "person": {
+                                "givenName": "Amos",
+                                "familyName": "Bertolacci",
+                                "organizations": [
+                                    {
+                                        "identifier": "ou_persistent22",
+                                        "name": "IMT School for Advanced Studies Lucca",
+                                        "identifierPath": [
+                                            "ou_persistent22"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "role": "AUTHOR",
+                            "type": "PERSON"
+                        }
+                    ],
+                    "datePublishedInPrint": "2023-01-13",
+                    "datePublishedOnline": "2023-01-13",
+                    "genre": "",
+                    "identifiers": [
+                        {
+                            "id": "10.4324/9781003309895-22",
+                            "type": "DOI"
+                        }
+                    ],
+                    "languages": [
+                        "eng"
+                    ],
+                    "sources": [
+                        {
+                            "title": "Contextualizing Premodern Philosophy: Explorations of the Greek, Hebrew, Arabic, and Latin Traditions",
+                            "creators": [
+                                {
+                                    "person": {
+                                        "givenName": "Katja",
+                                        "familyName": "Krause"
+                                    },
+                                    "role": "EDITOR",
+                                    "type": "PERSON"
+                                },
+                                {
+                                    "person": {
+                                        "givenName": "Luis Xavier",
+                                        "familyName": "López-Farjeat"
+                                    },
+                                    "role": "EDITOR",
+                                    "type": "PERSON"
+                                },
+                                {
+                                    "person": {
+                                        "givenName": "Nicholas A.",
+                                        "familyName": "Oschman"
+                                    },
+                                    "role": "EDITOR",
+                                    "type": "PERSON"
+                                }
+                            ],
+                            "startPage": "408",
+                            "endPage": "435",
+                            "publishingInfo": {
+                                "place": "New York, NY",
+                                "publisher": "Routledge"
+                            },
+                            "identifiers": [
+                                {
+                                    "id": "10.4324/9781003309895 ",
+                                    "type": "DOI"
+                                },
+                                {
+                                    "id": "978-1-032-31468-6",
+                                    "type": "ISBN"
+                                }
+                            ],
+                            "genre": "BOOK"
+                        }
+                    ]
+                }
+            },
+            "persistenceId": "item_3487124_1"
+        }
+    ]
+}

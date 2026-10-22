@@ -1,0 +1,165 @@
+{
+    "numberOfRecords": 6478,
+    "records": [
+        {
+            "data": {
+                "objectId": "item_3625611",
+                "versionNumber": 2,
+                "modificationDate": "2025-02-12T11:43:33.894+00:00",
+                "versionState": "RELEASED",
+                "versionPid": "hdl:21.11116/0000-0010-9DAC-C",
+                "modifier": {
+                    "objectId": "user_3596302"
+                },
+                "lastModificationDate": "2025-02-12T11:43:33.894+00:00",
+                "publicState": "RELEASED",
+                "objectPid": "hdl:21.11116/0000-0010-49D0-1",
+                "creator": {
+                    "objectId": "user_3596302"
+                },
+                "context": {
+                    "objectId": "ctx_1759977",
+                    "name": "Publications of the Bibliotheca Hertziana",
+                    "lastModificationDate": "2025-09-03T09:36:53.141+00:00",
+                    "creationDate": "2013-06-10T13:14:24.900+00:00",
+                    "creator": {
+                        "objectId": "user_user42"
+                    },
+                    "modifier": {
+                        "objectId": "user_3596295"
+                    }
+                },
+                "creationDate": "2024-12-06T13:27:46.099+00:00",
+                "latestRelease": {
+                    "objectId": "item_3625611",
+                    "versionNumber": 2,
+                    "modificationDate": "2025-02-12T11:43:33.894+00:00",
+                    "versionState": "RELEASED",
+                    "versionPid": "hdl:21.11116/0000-0010-9DAC-C",
+                    "modifier": {
+                        "objectId": "user_3596302"
+                    }
+                },
+                "latestVersion": {
+                    "objectId": "item_3625611",
+                    "versionNumber": 2,
+                    "modificationDate": "2025-02-12T11:43:33.894+00:00",
+                    "versionState": "RELEASED",
+                    "versionPid": "hdl:21.11116/0000-0010-9DAC-C",
+                    "modifier": {
+                        "objectId": "user_3596302"
+                    }
+                },
+                "localTags": [
+                    "rr_2025",
+                    "batch add local tags 10-02-2025 10:29:04"
+                ],
+                "metadata": {
+                    "title": "\"La più delicata cosa del mondo\": Pieter Bruegel’s \"Bay of Naples\"",
+                    "creators": [
+                        {
+                            "person": {
+                                "givenName": "Tanja",
+                                "familyName": "Michalsky",
+                                "organizations": [
+                                    {
+                                        "identifier": "ou_3616851",
+                                        "name": "Abteilung Michalsky, Bibliotheca Hertziana - Max-Planck-Institut für Kunstgeschichte, Max Planck Society",
+                                        "identifierPath": [
+                                            "ou_3616851",
+                                            "ou_1462638",
+                                            "ou_persistent13"
+                                        ]
+                                    }
+                                ],
+                                "identifier": {
+                                    "id": "/persons/resource/persons188338",
+                                    "type": "CONE"
+                                },
+                                "orcid": "https://orcid.org/0009-0003-8923-7724"
+                            },
+                            "role": "AUTHOR",
+                            "type": "PERSON"
+                        }
+                    ],
+                    "datePublishedInPrint": "2023",
+                    "datePublishedOnline": "2023",
+                    "genre": "CONFERENCE_PAPER",
+                    "identifiers": [
+                        {
+                            "id": "978-90-429-5030-6 ",
+                            "type": "ISBN"
+                        },
+                        {
+                            "id": "978-90-429-5031-3",
+                            "type": "ISBN"
+                        }
+                    ],
+                    "languages": [
+                        "eng"
+                    ],
+                    "reviewMethod": "INTERNAL",
+                    "sources": [
+                        {
+                            "title": "Bruegel & l’Italia : proceedings of the international conference held in the Academia Belgica in Rome, 26-28 September 2019",
+                            "creators": [
+                                {
+                                    "person": {
+                                        "givenName": "Tine",
+                                        "familyName": "Meganck"
+                                    },
+                                    "role": "EDITOR",
+                                    "type": "PERSON"
+                                },
+                                {
+                                    "person": {
+                                        "givenName": "Sabine van",
+                                        "familyName": "Sprang"
+                                    },
+                                    "role": "EDITOR",
+                                    "type": "PERSON"
+                                },
+                                {
+                                    "person": {
+                                        "givenName": "Maria Cecilia",
+                                        "familyName": "Galassi"
+                                    },
+                                    "role": "EDITOR",
+                                    "type": "PERSON"
+                                }
+                            ],
+                            "volume": "3",
+                            "startPage": "139",
+                            "endPage": "162",
+                            "publishingInfo": {
+                                "place": "Leuven ; Paris ; Bristol",
+                                "publisher": "CT : Peeters"
+                            },
+                            "identifiers": [
+                                {
+                                    "id": "978-90-429-5030-6 ",
+                                    "type": "ISBN"
+                                },
+                                {
+                                    "id": "978-90-429-5031-3",
+                                    "type": "ISBN"
+                                }
+                            ],
+                            "genre": "PROCEEDINGS",
+                            "totalNumberOfPages": "221"
+                        },
+                        {
+                            "title": "Studia Academiae Belgicae",
+                            "publishingInfo": {
+                                "place": "Leuven ; Paris ; Bristol",
+                                "publisher": "CT : Peeters"
+                            },
+                            "genre": "SERIES"
+                        }
+                    ]
+                }
+            },
+            "persistenceId": "item_3625611_2"
+        }
+    ]
+}

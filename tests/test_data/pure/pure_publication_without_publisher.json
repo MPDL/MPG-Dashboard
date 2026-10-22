@@ -1,0 +1,189 @@
+{
+    "numberOfRecords": 8640,
+    "records": [
+        {
+            "data": {
+                "objectId": "item_3519666",
+                "versionNumber": 1,
+                "modificationDate": "2023-07-13T06:18:11.136+00:00",
+                "versionState": "RELEASED",
+                "versionPid": "hdl:21.11116/0000-000D-7094-D",
+                "modifier": {
+                    "objectId": "user_3475493"
+                },
+                "lastModificationDate": "2023-07-13T06:18:11.136+00:00",
+                "publicState": "RELEASED",
+                "objectPid": "hdl:21.11116/0000-000D-7093-E",
+                "creator": {
+                    "objectId": "user_3475493"
+                },
+                "context": {
+                    "objectId": "ctx_2327834",
+                    "name": "Publications of the MPI for Heart and Lung Research",
+                    "lastModificationDate": "2016-08-19T08:31:38.249+00:00",
+                    "creationDate": "2016-08-10T15:34:24.595+00:00",
+                    "creator": {
+                        "objectId": "user_user42"
+                    },
+                    "modifier": {
+                        "objectId": "user_user42"
+                    }
+                },
+                "creationDate": "2023-07-13T06:08:36.533+00:00",
+                "latestRelease": {
+                    "objectId": "item_3519666",
+                    "versionNumber": 1,
+                    "modificationDate": "2023-07-13T06:18:11.136+00:00",
+                    "versionState": "RELEASED",
+                    "versionPid": "hdl:21.11116/0000-000D-7094-D",
+                    "modifier": {
+                        "objectId": "user_3475493"
+                    }
+                },
+                "latestVersion": {
+                    "objectId": "item_3519666",
+                    "versionNumber": 1,
+                    "modificationDate": "2023-07-13T06:18:11.136+00:00",
+                    "versionState": "RELEASED",
+                    "versionPid": "hdl:21.11116/0000-000D-7094-D",
+                    "modifier": {
+                        "objectId": "user_3475493"
+                    }
+                },
+                "localTags": [
+                    "multiple_import",
+                    "Import230713 2023-07-13 08:08"
+                ],
+                "metadata": {
+                    "title": "\"Ghost\" Fragment Ions in Structure and Site-Specific Glycoproteomics\r\n   Analysis",
+                    "creators": [
+                        {
+                            "person": {
+                                "givenName": "Diana",
+                                "familyName": "Campos",
+                                "organizations": [
+                                    {
+                                        "identifier": "ou_2591705",
+                                        "name": "Biomolecular Mass Spectrometry, Max Planck Institute for Heart and Lung Research, Max Planck Society",
+                                        "identifierPath": [
+                                            "ou_2591705",
+                                            "ou_2324692",
+                                            "ou_persistent13"
+                                        ]
+                                    }
+                                ],
+                                "identifier": {
+                                    "id": "/persons/resource/persons275695",
+                                    "type": "CONE"
+                                }
+                            },
+                            "role": "AUTHOR",
+                            "type": "PERSON"
+                        },
+                        {
+                            "person": {
+                                "givenName": "Michael",
+                                "familyName": "Girgis"
+                            },
+                            "role": "AUTHOR",
+                            "type": "PERSON"
+                        },
+                        {
+                            "person": {
+                                "givenName": "Qiang",
+                                "familyName": "Yang"
+                            },
+                            "role": "AUTHOR",
+                            "type": "PERSON"
+                        },
+                        {
+                            "person": {
+                                "givenName": "Guanghui",
+                                "familyName": "Zong"
+                            },
+                            "role": "AUTHOR",
+                            "type": "PERSON"
+                        },
+                        {
+                            "person": {
+                                "givenName": "Radoslav",
+                                "familyName": "Goldman"
+                            },
+                            "role": "AUTHOR",
+                            "type": "PERSON"
+                        },
+                        {
+                            "person": {
+                                "givenName": "Lai-Xi",
+                                "familyName": "Wang"
+                            },
+                            "role": "AUTHOR",
+                            "type": "PERSON"
+                        },
+                        {
+                            "person": {
+                                "givenName": "Miloslav",
+                                "familyName": "Sanda",
+                                "organizations": [
+                                    {
+                                        "identifier": "ou_2591705",
+                                        "name": "Biomolecular Mass Spectrometry, Max Planck Institute for Heart and Lung Research, Max Planck Society",
+                                        "identifierPath": [
+                                            "ou_2591705",
+                                            "ou_2324692",
+                                            "ou_persistent13"
+                                        ]
+                                    }
+                                ],
+                                "identifier": {
+                                    "id": "/persons/resource/persons275693",
+                                    "type": "CONE"
+                                }
+                            },
+                            "role": "AUTHOR",
+                            "type": "PERSON"
+                        }
+                    ],
+                    "datePublishedInPrint": "2023-07-11",
+                    "datePublishedOnline": "2023-06-29",
+                    "genre": "ARTICLE",
+                    "identifiers": [
+                        {
+                            "id": "001018989200001",
+                            "type": "ISI"
+                        },
+                        {
+                            "id": "10.1021/acs.analchem.3c02207",
+                            "type": "DOI"
+                        },
+                        {
+                            "id": " 37382290",
+                            "type": "PMID"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "title": "ANALYTICAL CHEMISTRY",
+                            "issue": "Volume 95, Issue 27",
+                            "startPage": "10145",
+                            "endPage": "10148 ",
+                            "identifiers": [
+                                {
+                                    "id": "0003-2700",
+                                    "type": "ISSN"
+                                }
+                            ],
+                            "genre": "JOURNAL"
+                        }
+                    ],
+                    "abstracts": [
+                        {
+                            "value": "Mass spectrometry (MS) can unlock crucial insights intothe intricateworld of glycosylation analysis. Despite its immense potential, thequalitative and quantitative analysis of isobaric glycopeptide structuresremains one of the most daunting hurdles in the field of glycoproteomics.The ability to distinguish between these complex glycan structuresposes a significant challenge, hindering our ability to accuratelymeasure and understand the role of glycoproteins in biological systems.A few recent publications described the use of collision energy (CE)modulation to improve structural elucidation, especially for qualitativepurposes. Different linkages of glycan units usually demonstrate differentstabilities under CID/HCD fragmentation conditions. Fragmentationof the glycan moiety produces low molecular weight ions (oxonium ions)that can serve as a structure-specific signature for specific glycanmoieties; however, the specificity of these fragments has never beenexamined closely. Here, we particularly focused on N-glycoproteomicsanalysis and investigated fragmentation specificity using syntheticstable isotope-labeled N-glycopeptide standards. These standards wereisotopically labeled at the reducing terminal GlcNAc, which allowedus to resolve fragments produced by the oligomannose core moiety andfragments generated from outer antennary structures. Our researchidentified the potential for false-positive structure assignmentsdue to the occurrence of \"Ghost\" fragments resultingfrom single glyco unit rearrangement or mannose core fragmentationwithin the collision cell. To mitigate this issue, we have establisheda minimal intensity threshold for these fragments to prevent misidentificationof structure-specific fragments in glycoproteomics analysis. Our findingsprovide a crucial step forward in the quest for more accurate andreliable glycoproteomics measurements."
+                        }
+                    ]
+                }
+            },
+            "persistenceId": "item_3519666_1"
+        }
+    ]
+}

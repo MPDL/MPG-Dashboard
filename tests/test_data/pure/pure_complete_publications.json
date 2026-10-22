@@ -1,0 +1,592 @@
+{
+    "numberOfRecords": 8640,
+    "records": [
+        {
+            "data": {
+                "objectId": "item_3536683",
+                "versionNumber": 2,
+                "modificationDate": "2025-09-04T14:27:03.220+00:00",
+                "versionState": "RELEASED",
+                "versionPid": "hdl:21.11116/0000-0011-B4F6-C",
+                "modifier": {
+                    "objectId": "user_3053228"
+                },
+                "lastModificationDate": "2025-09-04T14:27:03.220+00:00",
+                "publicState": "RELEASED",
+                "objectPid": "hdl:21.11116/0000-000D-C7A8-5",
+                "creator": {
+                    "objectId": "user_3053228"
+                },
+                "context": {
+                    "objectId": "ctx_3396434",
+                    "name": "Publications of the MPI for Geoanthropology",
+                    "lastModificationDate": "2026-02-25T08:06:00.562+00:00",
+                    "creationDate": "2022-07-25T08:32:09.064+00:00",
+                    "creator": {
+                        "objectId": "user_user42"
+                    },
+                    "modifier": {
+                        "objectId": "user_3053228"
+                    }
+                },
+                "creationDate": "2023-10-10T13:37:05.909+00:00",
+                "latestRelease": {
+                    "objectId": "item_3536683",
+                    "versionNumber": 2,
+                    "modificationDate": "2025-09-04T14:27:03.220+00:00",
+                    "versionState": "RELEASED",
+                    "versionPid": "hdl:21.11116/0000-0011-B4F6-C",
+                    "modifier": {
+                        "objectId": "user_3053228"
+                    }
+                },
+                "latestVersion": {
+                    "objectId": "item_3536683",
+                    "versionNumber": 2,
+                    "modificationDate": "2025-09-04T14:27:03.220+00:00",
+                    "versionState": "RELEASED",
+                    "versionPid": "hdl:21.11116/0000-0011-B4F6-C",
+                    "modifier": {
+                        "objectId": "user_3053228"
+                    }
+                },
+                "localTags": [
+                    "multiple_import",
+                    "gea0112 2023-10-10 15:37"
+                ],
+                "metadata": {
+                    "title": "\"An Aid with Soul\": understanding the determinants of guide dog-owner compatibility from qualitative interviews",
+                    "creators": [
+                        {
+                            "person": {
+                                "givenName": "Yana",
+                                "familyName": "Bender",
+                                "organizations": [
+                                    {
+                                        "identifier": "ou_3405439",
+                                        "name": "DogStudies Research Group , Max Planck Institute of Geoanthropology, Max Planck Society",
+                                        "identifierPath": [
+                                        "ou_3405439",
+                                        "ou_3396426",
+                                        "ou_persistent13"
+                                        ]
+                                    }
+                                ],
+                                "identifier": {
+                                    "id": "/persons/resource/persons277991",
+                                    "type": "CONE"
+                                },
+                                "orcid": "https://orcid.org/0000-0002-5951-4191"
+                            },
+                            "role": "AUTHOR",
+                            "type": "PERSON"
+                        },
+                        {
+                            "person": {
+                                "givenName": "Tim",
+                                "familyName": "Matschkowski"
+                            },
+                            "role": "AUTHOR",
+                            "type": "PERSON"
+                        },
+                        {
+                            "person": {
+                                "givenName": "Stefan R.",
+                                "familyName": "Schweinberger"
+                            },
+                            "role": "AUTHOR",
+                            "type": "PERSON"
+                        },
+                        {
+                            "person": {
+                                "givenName": "Juliane",
+                                "familyName": "Bräuer",
+                                "organizations": [
+                                    {
+                                        "identifier": "ou_3405439",
+                                        "name": "DogStudies Research Group , Max Planck Institute of Geoanthropology, Max Planck Society",
+                                        "identifierPath": [
+                                            "ou_3405439",
+                                            "ou_3396426",
+                                            "ou_persistent13"
+                                        ]
+                                    }
+                                ],
+                                "identifier": {
+                                    "id": "/persons/resource/persons72597",
+                                    "type": "CONE"
+                                },
+                                "orcid": "https://orcid.org/0000-0002-3613-3767"
+                            },
+                            "role": "AUTHOR",
+                            "type": "PERSON"
+                        }
+                    ],
+                    "dateAccepted": "2023-08-24",
+                    "datePublishedOnline": "2023-08-29",
+                    "dateSubmitted": "2023-07-25",
+                    "genre": "ARTICLE",
+                    "identifiers": [
+                        {
+                            "id": "10.3390/ani13172751",
+                            "type": "DOI"
+                        },
+                        {
+                            "id": "gea0112",
+                            "type": "OTHER"
+                        }
+                    ],
+                    "languages": [
+                        "eng"
+                    ],
+                    "reviewMethod": "PEER",
+                    "sources": [
+                        {
+                            "title": "Animals",
+                            "alternativeTitles": [
+                                {
+                                    "value": "dog–human relationships: behavior, physiology, and wellbeing",
+                                    "type": "SUBTITLE"
+                                }
+                            ],
+                            "sequenceNumber": "13172751",
+                            "publishingInfo": {
+                                "place": "Basel, Switzerland",
+                                "publisher": "MDPI"
+                            },
+                            "identifiers": [
+                                {
+                                    "id": "2076-2615",
+                                    "type": "ISSN"
+                                },
+                                {
+                                    "id": "/journals/resource/2076-2615",
+                                    "type": "CONE"
+                                }
+                            ],
+                            "genre": "JOURNAL"
+                        }
+                    ],
+                    "freeKeywords": "human–animal bond, guide dogs, dog–owner compatibility, personality",
+                    "tableOfContents": "1. Introduction\r\n1.1. Determinants of Success in Dog–Owner Dyads\r\n1.2. Functionality in Guide Dog–Owner Pairs\r\n1.3. Research Gap and Study Rationale\r\n2. Materials and Methods\r\n2.1. Participant Recruitment and Demographics\r\n2.2. Ethics\r\n2.3. Realization of the Interviews\r\n2.4. Questionnaire Design\r\n2.5. Data Processing\r\n3. Results and Discussion\r\n3.1. Compatibility—Most Owners Feel like a Good Match for Various Reasons\r\n3.2. Relationship Parameters—Can Dog and Owner Have a Too Close Bond?\r\n3.3. Strong Bonds Can Develop Even if Expectations Are Not Met \r\n3.4. Former Guide Dog Relationships Can Have Strong Influence on the Subsequent Ones\r\n3.5. Dog Affinity Is Not Crucial for Compatibility\r\n3.6. Owners Experience Positive and Negative Effects on Their Social Life\r\n3.7. Problems in Everyday Life Are Diverse\r\n3.8. No Meaningful Differences in Off-/At-Work Relationship\r\n4. What Is Better—Similar or Different Teams?\r\n5. Limitations\r\n6. Conclusions and Future Research",
+                    "totalNumberOfPages": "15",
+                    "abstracts": [
+                        {
+                            "language": "eng",
+                            "value": "Guide dogs hold the potential to increase confidence and independence in visually impaired individuals. However, the success of the partnership between a guide dog and its handler depends on various factors, including the compatibility between the dog and the handler. Here, we conducted interviews with 21 guide dog owners to explore determinants of compatibility between the dog and the owner. Experienced compatibility between the dog and the owner was associated with positive relationship aspects such as feeling secure with the dog. Certain characteristics emerged as subjective determinants of compatibility, including shared hobbies, high levels of openness in both or only the dog, similar activity levels and higher activeness in dogs, similar expressions of calmness; happiness; greediness; friendliness; and a complementary dominance&ndash;submissiveness relationship. Owners who perceived themselves to be similar in their personality to their dogs often reported to have a strong bond, to feel secure with their dog and to be less influenced by previous relationships. However, our results suggest that a strong bond between the dog and the owner does not exclusively yield positive effects. Moreover, prior dog ownership seems to have a potentially strong impact on the subsequent relationship. Our results contribute to the understanding of dog&ndash;owner compatibility and may improve the matching process of guide dogs and their prospective handlers."
+                        }
+                    ]
+                },
+                "files": [
+                    {
+                        "objectId": "file_3536685",
+                        "name": "gea0112.pdf",
+                        "lastModificationDate": "2025-09-04T14:27:01.146+00:00",
+                        "creationDate": "2023-10-10T13:49:51.022+00:00",
+                        "creator": {
+                        "objectId": "user_3053228"
+                        },
+                        "visibility": "PUBLIC",
+                        "pid": "hdl:21.11116/0000-000D-C7AA-3",
+                        "content": "/rest/items/item_3536683_2/component/file_3536685/content",
+                        "storage": "INTERNAL_MANAGED",
+                        "checksum": "abe5af1be071b6393297d0bd76f1f178",
+                        "checksumAlgorithm": "MD5",
+                        "mimeType": "application/pdf",
+                        "size": 563317,
+                        "metadata": {
+                            "title": "gea0112.pdf",
+                            "contentCategory": "publisher-version",
+                            "description": "OA",
+                            "formats": [
+                                {
+                                "value": "application/pdf",
+                                "type": "dcterms:IMT"
+                                }
+                            ],
+                            "size": 0,
+                            "license": "https://creativecommons.org/licenses/by/4.0/",
+                            "oaStatus": "GOLD"
+                        }
+                    }
+                ]
+            },
+            "persistenceId": "item_3536683_2"
+        },
+        {
+            "data": {
+                "objectId": "item_3510684",
+                "versionNumber": 3,
+                "modificationDate": "2023-08-10T08:39:28.418+00:00",
+                "versionState": "RELEASED",
+                "versionPid": "hdl:21.11116/0000-000D-8D8E-5",
+                "modifier": {
+                    "objectId": "user_2628717"
+                },
+                "lastModificationDate": "2023-08-10T08:39:28.418+00:00",
+                "publicState": "RELEASED",
+                "objectPid": "hdl:21.11116/0000-000D-2C93-C",
+                "creator": {
+                    "objectId": "user_2628717"
+                },
+                "context": {
+                    "objectId": "ctx_2079164",
+                    "name": "Publications of the MPI of Biophysics",
+                    "lastModificationDate": "2023-11-16T10:40:17.865+00:00",
+                    "creationDate": "2014-12-16T13:13:15.182+00:00",
+                    "creator": {
+                        "objectId": "user_user42"
+                    },
+                    "modifier": {
+                        "objectId": "user_user42"
+                    }
+                },
+                "creationDate": "2023-05-17T08:10:26.111+00:00",
+                "latestRelease": {
+                    "objectId": "item_3510684",
+                    "versionNumber": 3,
+                    "modificationDate": "2023-08-10T08:39:28.418+00:00",
+                    "versionState": "RELEASED",
+                    "versionPid": "hdl:21.11116/0000-000D-8D8E-5",
+                    "modifier": {
+                        "objectId": "user_2628717"
+                    }
+                },
+                "latestVersion": {
+                    "objectId": "item_3510684",
+                    "versionNumber": 3,
+                    "modificationDate": "2023-08-10T08:39:28.418+00:00",
+                    "versionState": "RELEASED",
+                    "versionPid": "hdl:21.11116/0000-000D-8D8E-5",
+                    "modifier": {
+                        "objectId": "user_2628717"
+                    }
+                },
+                "localTags": [
+                    "multiple_import",
+                    "fracchiolla 2023-05-17 10:10"
+                ],
+                "metadata": {
+                    "title": "“Autophagic landscapes: on the paradox of survival through self-degradation” – A science-inspired exhibition",
+                    "creators": [
+                        {
+                            "person": {
+                                "givenName": "Ayelen",
+                                "familyName": "Valko",
+                                "organizations": [
+                                    {
+                                        "identifier": "ou_persistent22",
+                                        "name": "Universtität Heidelberg, Heidelberg, Germany",
+                                        "identifierPath": [
+                                            "ou_persistent22"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "role": "AUTHOR",
+                            "type": "PERSON"
+                        },
+                        {
+                            "person": {
+                                "givenName": "Dorotea",
+                                "familyName": "Fracchiolla",
+                                "organizations": [
+                                    {
+                                        "identifier": "ou_2068292",
+                                        "name": "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Max Planck Society",
+                                        "identifierPath": [
+                                            "ou_2068292",
+                                            "ou_2068288",
+                                            "ou_persistent13"
+                                        ]
+                                    }
+                                ],
+                                "identifier": {
+                                    "id": "/persons/resource/persons289621",
+                                    "type": "CONE"
+                                },
+                                "orcid": "https://orcid.org/0000-0002-1612-5225"
+                            },
+                            "role": "AUTHOR",
+                            "type": "PERSON"
+                        }
+                    ],
+                    "dateAccepted": "2023-05-10",
+                    "datePublishedInPrint": "2023-05-26",
+                    "datePublishedOnline": "2023-05-16",
+                    "dateSubmitted": "2023-03-13",
+                    "genre": "ARTICLE",
+                    "identifiers": [
+                        {
+                            "id": "10.1080/15548627.2023.2214031",
+                            "type": "DOI"
+                        },
+                        {
+                            "id": "valko_autophagic_2023",
+                            "type": "BIBTEX_CITEKEY"
+                        }
+                    ],
+                    "languages": [
+                        "eng"
+                    ],
+                    "reviewMethod": "PEER",
+                    "sources": [
+                        {
+                            "title": "Autophagy",
+                            "volume": "19",
+                            "issue": "9",
+                            "startPage": "2601",
+                            "endPage": "2606",
+                            "publishingInfo": {
+                                "publisher": "Taylor & Francis"
+                            },
+                            "identifiers": [
+                                {
+                                    "id": "1554-8627",
+                                    "type": "ISSN"
+                                },
+                                {
+                                    "id": "/journals/resource/1000000000238500",
+                                    "type": "CONE"
+                                }
+                            ],
+                            "genre": "JOURNAL"
+                        }
+                    ],
+                    "freeKeywords": "autophagy, exhibition, science communication",
+                    "totalNumberOfPages": "7",
+                    "abstracts": [
+                        {
+                            "language": "eng",
+                            "value": "The Complexity Science Hub Vienna is hosting an autophagy-based art exhibition that shows the artwork by Ayelen Valko and Dorotea Fracchiolla, two artists who are also scientists engaged in autophagy research. This exhibition, called “Autophagic landscapes: on the paradox of survival through self-degradation”—which will be open to the general public from January to May 2023—proposes a visual journey from entire organisms towards the interior of a single cell. The core ideas represented in the exhibited artworks are the molecular mechanisms and vesicular dynamics of autophagy—two phenomena that have been feeding the imagination of the two artists, inspiring the creation of art that depicts intriguing subcellular landscapes. Although the microscale bears very valuable aesthetic features, it is not a common subject in art. Correcting this is the main aim of this exhibition and of the two artists."
+                        }
+                    ]
+                },
+                "files": [
+                    {
+                        "objectId": "file_3510685",
+                        "lastModificationDate": "2023-08-10T08:39:23.798+00:00",
+                        "creationDate": "2023-05-17T08:10:26.148+00:00",
+                        "creator": {
+                            "objectId": "user_2628717"
+                        },
+                        "visibility": "PUBLIC",
+                        "content": "https://www.tandfonline.com/doi/abs/10.1080/15548627.2023.2214031",
+                        "storage": "EXTERNAL_URL",
+                        "size": 0,
+                        "metadata": {
+                            "title": "Link",
+                            "contentCategory": "any-fulltext",
+                            "size": 0,
+                            "oaStatus": "NOT_SPECIFIED"
+                        }
+                    }
+                ]
+            },
+            "persistenceId": "item_3510684_3"
+        },
+        {
+            "data": {
+                "objectId": "item_3553117",
+                "versionNumber": 3,
+                "modificationDate": "2025-12-19T09:46:31.130+00:00",
+                "versionState": "RELEASED",
+                "versionPid": "hdl:21.11116/0000-0012-50F1-1",
+                "modifier": {
+                    "objectId": "user_1543160"
+                },
+                "lastModificationDate": "2025-12-19T09:46:31.130+00:00",
+                "publicState": "RELEASED",
+                "objectPid": "hdl:21.11116/0000-000D-FCFD-B",
+                "creator": {
+                    "objectId": "user_3513641"
+                },
+                "context": {
+                    "objectId": "ctx_1542176",
+                    "name": "Publications of the MPI for Evolutionary Anthropology",
+                    "lastModificationDate": "2025-10-01T14:26:40.972+00:00",
+                    "creationDate": "2012-09-26T12:14:01.317+00:00",
+                    "creator": {
+                        "objectId": "user_user42"
+                    },
+                    "modifier": {
+                        "objectId": "user_user42"
+                    }
+                },
+                "creationDate": "2023-11-29T08:50:24.899+00:00",
+                "latestRelease": {
+                    "objectId": "item_3553117",
+                    "versionNumber": 3,
+                    "modificationDate": "2025-12-19T09:46:31.130+00:00",
+                    "versionState": "RELEASED",
+                    "versionPid": "hdl:21.11116/0000-0012-50F1-1",
+                    "modifier": {
+                        "objectId": "user_1543160"
+                    }
+                },
+                "latestVersion": {
+                    "objectId": "item_3553117",
+                    "versionNumber": 3,
+                    "modificationDate": "2025-12-19T09:46:31.130+00:00",
+                    "versionState": "RELEASED",
+                    "versionPid": "hdl:21.11116/0000-0012-50F1-1",
+                    "modifier": {
+                        "objectId": "user_1543160"
+                    }
+                },
+                "localTags": [
+                    "multiple_import",
+                    "Yan 2023-11-29 09:50"
+                ],
+                "metadata": {
+                    "title": "\"Doing what others do\" does not stabilize continuous norms",
+                    "creators": [
+                        {
+                            "person": {
+                                "givenName": "Minhua",
+                                "familyName": "Yan",
+                                "organizations": [
+                                    {
+                                        "identifier": "ou_2173689",
+                                        "name": "Department of Human Behavior Ecology and Culture, Max Planck Institute for Evolutionary Anthropology, Max Planck Society",
+                                        "identifierPath": [
+                                            "ou_2173689",
+                                            "ou_38004",
+                                            "ou_persistent13"
+                                        ]
+                                    }
+                                ],
+                                "identifier": {
+                                    "id": "/persons/resource/persons293971",
+                                    "type": "CONE"
+                                },
+                                "orcid": "https://orcid.org/0000-0003-1650-4011"
+                            },
+                            "role": "AUTHOR",
+                            "type": "PERSON"
+                        },
+                        {
+                            "person": {
+                                "givenName": "Sarah",
+                                "familyName": "Mathew"
+                            },
+                            "role": "AUTHOR",
+                            "type": "PERSON"
+                        },
+                        {
+                            "person": {
+                                "givenName": "Robert",
+                                "familyName": "Boyd"
+                            },
+                            "role": "AUTHOR",
+                            "type": "PERSON"
+                        }
+                    ],
+                    "datePublishedInPrint": "2023-03",
+                    "datePublishedOnline": "2023-02-23",
+                    "genre": "ARTICLE",
+                    "identifiers": [
+                        {
+                            "id": "10.1093/pnasnexus/pgad054",
+                            "type": "DOI"
+                        }
+                    ],
+                    "languages": [
+                        "eng"
+                    ],
+                    "reviewMethod": "PEER",
+                    "sources": [
+                        {
+                            "title": "PNAS Nexus",
+                            "volume": "2",
+                            "issue": "3",
+                            "sequenceNumber": "pgad054",
+                            "publishingInfo": {
+                                "publisher": "National Academy of Sciences"
+                            },
+                            "identifiers": [
+                                {
+                                    "id": "2752-6542",
+                                    "type": "ISBN"
+                                }
+                            ],
+                            "genre": "JOURNAL"
+                        }
+                    ],
+                    "freeKeywords": "social norms, norm evolutionary dynamics, cultural evolution, mathematical model",
+                    "abstracts": [
+                        {
+                            "language": "eng",
+                            "value": "Differences in social norms are a key source of behavioral variation among human populations. It is widely assumed that a vast range of behaviors, even deleterious ones, can persist as long as they are locally common because deviants suffer coordination failures and social sanctions. Previous models have confirmed this intuition, showing that different populations may exhibit different norms even if they face similar environmental pressures or are linked by migration. Crucially, these studies have modeled norms as having a few discrete variants. Many norms, however, have a continuous range of variants. Here we present a mathematical model of the evolutionary dynamics of continuously varying norms and show that when the social payoffs of the behavioral options vary continuously the pressure to do what others do does not result in multiple stable equilibria. Instead, factors such as environmental pressure, individual preferences, moral beliefs, and cognitive attractors determine the outcome even if their effects are weak, and absent such factors populations linked by migration converge to the same norm. The results suggest that the content of norms across human societies is less arbitrary or historically constrained than previously assumed. Instead, there is greater scope for norms to evolve towards optimal individual or group-level solutions. Our findings also suggest that cooperative norms such as those that increase contributions to public goods might require evolved moral preferences, and not just social sanctions on deviants, to be stable."
+                        }
+                    ]
+                },
+                "files": [
+                    {
+                        "objectId": "file_3553121",
+                        "name": "Yan_Doing_PNASNexus_2023.pdf",
+                        "lastModificationDate": "2025-12-19T09:46:29.924+00:00",
+                        "creationDate": "2023-11-29T08:53:04.855+00:00",
+                        "creator": {
+                            "objectId": "user_3513641"
+                        },
+                        "visibility": "PUBLIC",
+                        "pid": "hdl:21.11116/0000-000D-FCFF-9",
+                        "content": "/rest/items/item_3553117_3/component/file_3553121/content",
+                        "storage": "INTERNAL_MANAGED",
+                        "checksum": "a86b0dba9d1e53304b9529228406c5d2",
+                        "checksumAlgorithm": "MD5",
+                        "mimeType": "application/pdf",
+                        "size": 622910,
+                        "metadata": {
+                            "title": "Yan_Doing_PNASNexus_2023.pdf",
+                            "contentCategory": "publisher-version",
+                            "formats": [
+                                {
+                                    "value": "application/pdf",
+                                    "type": "dcterms:IMT"
+                                }
+                            ],
+                            "size": 0,
+                            "copyrightDate": "2023",
+                            "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+                            "oaStatus": "GOLD"
+                        }
+                    },
+                    {
+                        "objectId": "file_3553147",
+                        "name": "Pretelli_Foraging_ProcRoySocLonB_Suppl_2023.pdf",
+                        "lastModificationDate": "2025-12-19T09:46:29.924+00:00",
+                        "creationDate": "2023-11-29T13:12:37.240+00:00",
+                        "creator": {
+                            "objectId": "user_3513641"
+                        },
+                        "visibility": "PUBLIC",
+                        "pid": "hdl:21.11116/0000-000D-FD00-6",
+                        "content": "/rest/items/item_3553117_3/component/file_3553147/content",
+                        "storage": "INTERNAL_MANAGED",
+                        "checksum": "cd0f6803bf90ed3f19157938727a1bc8",
+                        "checksumAlgorithm": "MD5",
+                        "mimeType": "application/pdf",
+                        "size": 671354,
+                        "metadata": {
+                            "title": "Pretelli_Foraging_ProcRoySocLonB_Suppl_2023.pdf",
+                            "contentCategory": "supplementary-material",
+                            "formats": [
+                                {
+                                    "value": "application/pdf",
+                                    "type": "dcterms:IMT"
+                                }
+                            ],
+                            "size": 0,
+                            "copyrightDate": "2023",
+                            "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+                            "oaStatus": "GOLD"
+                        }
+                    }
+                ]
+            },
+            "persistenceId": "item_3553117_3"
+        }
+    ]
+}

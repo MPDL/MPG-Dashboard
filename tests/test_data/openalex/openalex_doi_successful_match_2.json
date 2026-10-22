@@ -1,0 +1,58 @@
+{
+    "id": "https://openalex.org/W2194775991",
+    "title": "Deep Residual Learning for Image Recognition",
+    "type": "conference-paper",
+    "publication_year": 2016,
+    "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://repositorio.unal.edu.co/handle/unal/81443",
+        "any_repository_has_fulltext": true
+    },
+    "locations": [
+        {
+            "id": "doi:10.1109/cvpr.2016.90",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1109/cvpr.2016.90",
+            "pdf_url": null,
+            "source": null,
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+            "raw_type": "proceedings-article"
+        },
+        {
+            "id": "pmh:oai:repositorio.unal.edu.co:unal/81443",
+            "is_oa": true,
+            "landing_page_url": "https://repositorio.unal.edu.co/handle/unal/81443",
+            "pdf_url": null,
+            "source": {
+                "id": "https://openalex.org/S4306402641",
+                "display_name": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Cient\u00edficas)",
+                "issn_l": null,
+                "issn": null,
+                "is_oa": false,
+                "is_in_doaj": false,
+                "is_core": false,
+                "listed_in": [],
+                "host_organization": "https://openalex.org/I4383465926",
+                "host_organization_name": "LA Referencia",
+                "host_organization_lineage": [
+                    "https://openalex.org/I4383465926"
+                ],
+                "host_organization_lineage_names": [],
+                "type": "repository"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "reponame:Repositorio UN",
+            "raw_type": "info:eu-repo/semantics/masterThesis"
+        }
+    ]
+}

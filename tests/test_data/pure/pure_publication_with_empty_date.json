@@ -1,0 +1,204 @@
+{
+    "numberOfRecords": 8640,
+    "records": [
+        {
+            "data": {
+                "objectId": "item_3565410",
+                "versionNumber": 1,
+                "modificationDate": "2024-02-01T13:33:40.492+00:00",
+                "versionState": "RELEASED",
+                "versionPid": "hdl:21.11116/0000-000E-56CA-E",
+                "modifier": {
+                    "objectId": "user_1344581"
+                },
+                "lastModificationDate": "2024-02-01T13:33:40.492+00:00",
+                "publicState": "RELEASED",
+                "objectPid": "hdl:21.11116/0000-000E-56C9-F",
+                "creator": {
+                    "objectId": "user_1344581"
+                },
+                "context": {
+                    "objectId": "ctx_2104435",
+                    "name": "Publications of the Max Planck Institute for Software Systems",
+                    "lastModificationDate": "2015-04-01T13:41:26.720+00:00",
+                    "creationDate": "2015-02-27T12:38:52.272+00:00",
+                    "creator": {
+                        "objectId": "user_user42"
+                    },
+                    "modifier": {
+                        "objectId": "user_user42"
+                    }
+                },
+                "creationDate": "2024-02-01T13:33:34.396+00:00",
+                "latestRelease": {
+                    "objectId": "item_3565410",
+                    "versionNumber": 1,
+                    "modificationDate": "2024-02-01T13:33:40.492+00:00",
+                    "versionState": "RELEASED",
+                    "versionPid": "hdl:21.11116/0000-000E-56CA-E",
+                    "modifier": {
+                        "objectId": "user_1344581"
+                    }
+                },
+                "latestVersion": {
+                    "objectId": "item_3565410",
+                    "versionNumber": 1,
+                    "modificationDate": "2024-02-01T13:33:40.492+00:00",
+                    "versionState": "RELEASED",
+                    "versionPid": "hdl:21.11116/0000-000E-56CA-E",
+                    "modifier": {
+                        "objectId": "user_1344581"
+                    }
+                },
+                "localTags": [],
+                "metadata": {
+                    "title": "\"I need a better description\": An Investigation Into User Expectations For Differential Privacy ",
+                    "alternativeTitles": [
+                        {
+                            "value": "\"I need a better description\": {A}n Investigation Into User Expectations For Differential Privacy ",
+                            "type": "LATEX"
+                        }
+                    ],
+                    "wcreators": [
+                        {
+                            "person": {
+                                "givenName": "Rachel",
+                                "familyName": "Cummings",
+                                "organizations": [
+                                    {
+                                        "identifier": "ou_persistent22",
+                                        "name": "External Organizations",
+                                        "identifierPath": [
+                                            "ou_persistent22"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "role": "AUTHOR",
+                            "type": "PERSON"
+                        },
+                        {
+                            "person": {
+                                "givenName": "Gabriel",
+                                "familyName": "Kaptchuk",
+                                "organizations": [
+                                    {
+                                        "identifier": "ou_persistent22",
+                                        "name": "External Organizations",
+                                        "identifierPath": [
+                                            "ou_persistent22"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "role": "AUTHOR",
+                            "type": "PERSON"
+                        },
+                        {
+                            "person": {
+                                "givenName": "Elissa M.",
+                                "familyName": "Redmiles",
+                                "organizations": [
+                                    {
+                                        "identifier": "ou_2105291",
+                                        "name": "Group K. Gummadi, Max Planck Institute for Software Systems, Max Planck Society",
+                                        "identifierPath": [
+                                            "ou_2105291",
+                                            "ou_2105284",
+                                            "ou_persistent13"
+                                        ]
+                                    }
+                                ],
+                                "identifier": {
+                                    "id": "/persons/resource/persons261045",
+                                    "type": "CONE"
+                                }
+                            },
+                            "role": "AUTHOR",
+                            "type": "PERSON"
+                        }
+                    ],
+                    "datePublishedInPrint": "2023",
+                    "datePublishedOnline": "",
+                    "genre": "ARTICLE",
+                    "identifiers": [
+                        {
+                            "id": "10.29012/jpc.813",
+                            "type": "DOI"
+                        },
+                        {
+                            "id": "Cummings23",
+                            "type": "BIBTEX_CITEKEY"
+                        }
+                    ],
+                    "languages": [
+                        "eng"
+                    ],
+                    "sources": [
+                        {
+                            "title": "Journal of Privacy and Confidentiality",
+                            "alternativeTitles": [
+                                {
+                                    "value": "JPC",
+                                    "type": "ABBREVIATION"
+                                },
+                                {
+                                    "value": "J Privacy Confidentiality",
+                                    "type": "ABBREVIATION"
+                                }
+                            ],
+                            "volume": "13",
+                            "issue": "1",
+                            "startPage": "1",
+                            "endPage": "40",
+                            "publishingInfo": {
+                                "place": "Ithaca, NY",
+                                "publisher": "Cornell University"
+                            },
+                            "identifiers": [
+                                {
+                                    "id": "2575-8527 ",
+                                    "type": "ISSN"
+                                }
+                            ],
+                            "genre": "JOURNAL"
+                            }
+                    ]
+                },
+                "files": [
+                    {
+                        "objectId": "file_3565411",
+                        "name": "jpc_manuscript_813_pdfa.pdf",
+                        "lastModificationDate": "2024-02-01T13:33:34.402+00:00",
+                        "creationDate": "2024-02-01T13:33:34.402+00:00",
+                        "creator": {
+                            "objectId": "user_1344581"
+                        },
+                        "visibility": "PUBLIC",
+                        "pid": "hdl:21.11116/0000-000E-56CB-D",
+                        "content": "/rest/items/item_3565410_1/component/file_3565411/content",
+                        "storage": "INTERNAL_MANAGED",
+                        "checksum": "2b6fa5208b3d0d764b8af19991675417",
+                        "checksumAlgorithm": "MD5",
+                        "mimeType": "application/pdf",
+                        "size": 1101209,
+                        "metadata": {
+                            "title": "jpc_manuscript_813_pdfa.pdf",
+                            "contentCategory": "publisher-version",
+                            "formats": [
+                                {
+                                    "value": "application/pdf",
+                                    "type": "dcterms:IMT"
+                                }
+                            ],
+                            "size": 0,
+                            "rights": "Creative Commons License\r\n\r\nThis work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.\r\n\r\nCopyright is retained by the authors. By submitting to this journal, the author(s) license the article under the Creative Commons License – Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0), unless choosing a more lenient license (for instance, public domain). For situations not allowed under CC BY-NC-ND, short sections of text, not to exceed two paragraphs, may be quoted without explicit permission provided that full credit, including © notice, is given to the source.\r\n\r\nAuthors of articles published by the journal grant the journal the right to store the articles in its databases for an unlimited period of time and to distribute and reproduce the articles electronically.\r\n",
+                            "oaStatus": "GOLD"
+                        }
+                    }
+                ]
+            },
+            "persistenceId": "item_3565410_1"
+        }
+    ]
+}

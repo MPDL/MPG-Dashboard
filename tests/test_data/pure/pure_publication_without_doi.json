@@ -1,0 +1,206 @@
+{
+    "numberOfRecords": 2096,
+    "records": [
+        {
+            "data": {
+                "objectId": "item_3519435",
+                "versionNumber": 1,
+                "modificationDate": "2023-07-11T12:46:03.522+00:00",
+                "versionState": "RELEASED",
+                "versionPid": "hdl:21.11116/0000-000D-6E7B-F",
+                "modifier": {
+                    "objectId": "user_604554"
+                },
+                "lastModificationDate": "2023-07-11T12:46:03.522+00:00",
+                "publicState": "RELEASED",
+                "objectPid": "hdl:21.11116/0000-000D-6E7A-0",
+                "creator": {
+                    "objectId": "user_604554"
+                },
+                "context": {
+                    "objectId": "ctx_1312560",
+                    "name": "Publications of the MPI for the Study of Religious and Ethnic Diversity",
+                    "lastModificationDate": "2024-11-07T11:27:18.697+00:00",
+                    "creationDate": "2012-01-17T16:10:43.895+00:00",
+                    "creator": {
+                        "objectId": "user_user42"
+                    },
+                    "modifier": {
+                        "objectId": "user_604554"
+                    }
+                },
+                "creationDate": "2023-07-11T12:45:49.083+00:00",
+                "latestRelease": {
+                    "objectId": "item_3519435",
+                    "versionNumber": 1,
+                    "modificationDate": "2023-07-11T12:46:03.522+00:00",
+                    "versionState": "RELEASED",
+                    "versionPid": "hdl:21.11116/0000-000D-6E7B-F",
+                    "modifier": {
+                        "objectId": "user_604554"
+                    }
+                },
+                "latestVersion": {
+                    "objectId": "item_3519435",
+                    "versionNumber": 1,
+                    "modificationDate": "2023-07-11T12:46:03.522+00:00",
+                    "versionState": "RELEASED",
+                    "versionPid": "hdl:21.11116/0000-000D-6E7B-F",
+                    "modifier": {
+                        "objectId": "user_604554"
+                    }
+                },
+                "localTags": [
+                    "OA"
+                ],
+                "metadata": {
+                    "title": "“It’s like a big family feud!” Researching social\r\ntrauma and repair through the lens of emotion and\r\nculture",
+                    "creators": [
+                        {
+                            "person": {
+                                "givenName": "Victoria K.",
+                                "familyName": "Sakti",
+                                "organizations": [
+                                    {
+                                        "identifier": "ou_2541692",
+                                        "name": "Research Group Ageing in a Time of Mobility, MPI for the Study of Religious and Ethnic Diversity, Max Planck Society",
+                                        "identifierPath": [
+                                            "ou_2541692",
+                                            "ou_1110545",
+                                            "ou_persistent13"
+                                        ]
+                                    }
+                                ],
+                                "identifier": {
+                                    "id": "/persons/resource/persons226455",
+                                    "type": "CONE"
+                                },
+                                "orcid": "https://orcid.org/0000-0002-7273-0331"
+                            },
+                            "role": "AUTHOR",
+                            "type": "PERSON"
+                        }
+                    ],
+                    "datePublishedInPrint": "2023",
+                    "datePublishedOnline": "2023",
+                    "genre": "CONTRIBUTION_TO_COLLECTED_EDITION",
+                    "identifiers": [
+                        {
+                            "id": "978-3-496-01701-1",
+                            "type": "ISBN"
+                        }
+                    ],
+                    "languages": [
+                        "eng"
+                    ],
+                    "sources": [
+                        {
+                            "title": "Anthropologie der Emotionen: Affektive Dynamiken in Kultur und Gestellschaft",
+                            "creators": [
+                                {
+                                    "person": {
+                                        "givenName": "Thomas",
+                                        "familyName": "Stodulka"
+                                    },
+                                    "role": "EDITOR",
+                                    "type": "PERSON"
+                                },
+                                {
+                                    "person": {
+                                        "givenName": "Anita von",
+                                        "familyName": "Poser"
+                                    },
+                                    "role": "EDITOR",
+                                    "type": "PERSON"
+                                },
+                                {
+                                    "person": {
+                                        "givenName": "Gabriel",
+                                        "familyName": "Scheidecker"
+                                    },
+                                    "role": "EDITOR",
+                                    "type": "PERSON"
+                                },
+                                {
+                                    "person": {
+                                        "givenName": "Jonas",
+                                        "familyName": "Bens"
+                                    },
+                                    "role": "EDITOR",
+                                    "type": "PERSON"
+                                }
+                            ],
+                            "startPage": "221-228",
+                            "publishingInfo": {
+                                "place": "Berlin",
+                                "publisher": "Reimer"
+                            },
+                            "identifiers": [
+                                {
+                                    "id": "978-3-496-01701-1",
+                                    "type": "ISBN"
+                                },
+                                {
+                                    "id": "10.5771/9783496030874",
+                                    "type": "DOI"
+                                }
+                            ],
+                            "genre": "COLLECTED_EDITION"
+                        }
+                    ]
+                },
+                "files": [
+                    {
+                        "objectId": "file_3519436",
+                        "name": "OA_Sakti_2023_ItsLike.pdf",
+                        "lastModificationDate": "2023-07-11T12:45:58.927+00:00",
+                        "creationDate": "2023-07-11T12:45:49.094+00:00",
+                        "creator": {
+                            "objectId": "user_604554"
+                        },
+                        "visibility": "PUBLIC",
+                        "pid": "hdl:21.11116/0000-000D-6E7C-E",
+                        "content": "/rest/items/item_3519435_1/component/file_3519436/content",
+                        "storage": "INTERNAL_MANAGED",
+                        "checksum": "05622892c451c9c463ed45c65986a334",
+                        "checksumAlgorithm": "MD5",
+                        "mimeType": "application/pdf",
+                        "size": 99651,
+                        "metadata": {
+                            "title": "OA_Sakti_2023_ItsLike.pdf",
+                            "contentCategory": "publisher-version",
+                            "formats": [
+                                {
+                                    "value": "application/pdf",
+                                    "type": "dcterms:IMT"
+                                }
+                            ],
+                            "size": 0,
+                            "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+                            "oaStatus": "GOLD"
+                        }
+                    },
+                    {
+                        "objectId": "file_3519437",
+                        "lastModificationDate": "2023-07-11T12:45:58.927+00:00",
+                        "creationDate": "2023-07-11T12:45:49.094+00:00",
+                        "creator": {
+                            "objectId": "user_604554"
+                        },
+                        "visibility": "PUBLIC",
+                        "content": "https://www.nomos-elibrary.de/10.5771/9783496030874/anthropologie-der-emotionen",
+                        "storage": "EXTERNAL_URL",
+                        "size": 0,
+                        "metadata": {
+                            "title": "https://www.nomos-elibrary.de/10.5771/9783496030874/anthropologie-der-emotionen",
+                            "contentCategory": "publisher-version",
+                            "size": 0,
+                            "oaStatus": "GOLD"
+                        }
+                    }
+                ]
+            },
+            "persistenceId": "item_3519435_1"
+        }
+    ]
+}

@@ -1,0 +1,1841 @@
+{
+    "meta": {
+        "count": 22,
+        "db_response_time_ms": 333,
+        "page": 1,
+        "per_page": 10,
+        "groups_count": null,
+        "x_query": {
+            "oql": "works where full text has (Understanding spin relaxation \"and\" magnetization transfer in ex vivo white matter using an unconstrained four-pool model analysis)",
+            "oqo": {
+                "get_rows": "works",
+                "filter_rows": [
+                    {
+                        "column_id": "fulltext.search",
+                        "value": "Understanding spin relaxation and magnetization transfer in ex vivo white matter using an unconstrained four-pool model analysis",
+                        "operator": "has"
+                    }
+                ]
+            },
+            "url": "/works?filter=fulltext.search:Understanding spin relaxation and magnetization transfer in ex vivo white matter using an unconstrained four-pool model analysis&per_page=10"
+        },
+        "cost_usd": 0.001
+    },
+    "results": [
+        {
+            "id": "https://openalex.org/W4407151198",
+            "title": "An unconstrained four pool model analysis of proton relaxation and magnetization transfer in ex vivo white matter",
+            "type": "article",
+            "publication_year": 2025,
+            "open_access": {
+                "is_oa": true,
+                "oa_status": "gold",
+                "oa_url": "https://www.nature.com/articles/s41598-025-87362-4.pdf",
+                "any_repository_has_fulltext": true
+            },
+            "locations": [
+                {
+                    "id": "doi:10.1038/s41598-025-87362-4",
+                    "is_oa": true,
+                    "landing_page_url": "https://doi.org/10.1038/s41598-025-87362-4",
+                    "pdf_url": "https://www.nature.com/articles/s41598-025-87362-4.pdf",
+                    "source": {
+                        "id": "https://openalex.org/S196734849",
+                        "display_name": "Scientific Reports",
+                        "issn_l": "2045-2322",
+                        "issn": [
+                            "2045-2322"
+                        ],
+                        "is_oa": true,
+                        "is_in_doaj": true,
+                        "is_core": true,
+                        "listed_in": [
+                            "cwts-core",
+                            "doaj",
+                            "doyens",
+                            "jufo-1",
+                            "medline",
+                            "norway-1"
+                        ],
+                        "host_organization": "https://openalex.org/P4310319908",
+                        "host_organization_name": "Nature Portfolio",
+                        "host_organization_lineage": [
+                            "https://openalex.org/P4310319908",
+                            "https://openalex.org/P4310319965"
+                        ],
+                        "host_organization_lineage_names": [
+                            "Nature Portfolio",
+                            "Springer Nature"
+                        ],
+                        "type": "journal"
+                    },
+                    "license": "cc-by",
+                    "license_id": "https://openalex.org/licenses/cc-by",
+                    "version": "publishedVersion",
+                    "is_accepted": true,
+                    "is_published": true,
+                    "raw_source_name": "Scientific Reports",
+                    "raw_type": "journal-article"
+                },
+                {
+                    "id": "pmid:39910188",
+                    "is_oa": false,
+                    "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/39910188",
+                    "pdf_url": null,
+                    "source": {
+                        "id": "https://openalex.org/S4306525036",
+                        "display_name": "PubMed",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I1299303238",
+                        "host_organization_name": "National Institutes of Health",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I1299303238"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": null,
+                    "license_id": null,
+                    "version": "publishedVersion",
+                    "is_accepted": true,
+                    "is_published": true,
+                    "raw_source_name": "Scientific reports",
+                    "raw_type": "Journal Article"
+                },
+                {
+                    "id": "pmh:oai:pubmedcentral.nih.gov:11799436",
+                    "is_oa": true,
+                    "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11799436",
+                    "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11799436/pdf/41598_2025_Article_87362.pdf",
+                    "source": {
+                        "id": "https://openalex.org/S2764455111",
+                        "display_name": "PubMed Central",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": true,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I1299303238",
+                        "host_organization_name": "National Institutes of Health",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I1299303238"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": "cc-by",
+                    "license_id": "https://openalex.org/licenses/cc-by",
+                    "version": "submittedVersion",
+                    "is_accepted": false,
+                    "is_published": false,
+                    "raw_source_name": "Sci Rep",
+                    "raw_type": "Text"
+                },
+                {
+                    "id": "pmh:oai:doaj.org/article:b204c88688464fd78e062a9e53190b0b",
+                    "is_oa": false,
+                    "landing_page_url": "https://doaj.org/article/b204c88688464fd78e062a9e53190b0b",
+                    "pdf_url": null,
+                    "source": {
+                        "id": "https://openalex.org/S4306401280",
+                        "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": null,
+                        "host_organization_name": null,
+                        "host_organization_lineage": [],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": null,
+                    "license_id": null,
+                    "version": "submittedVersion",
+                    "is_accepted": false,
+                    "is_published": false,
+                    "raw_source_name": "Scientific Reports, Vol 15, Iss 1, Pp 1-19 (2025)",
+                    "raw_type": "article"
+                },
+                {
+                    "id": "pmh:oai:pure.mpg.de:item_3638021",
+                    "is_oa": true,
+                    "landing_page_url": "http://hdl.handle.net/21.11116/0000-0010-C941-2",
+                    "pdf_url": null,
+                    "source": {
+                        "id": "https://openalex.org/S4306400654",
+                        "display_name": "MPG.PuRe (Max Planck Society)",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I149899117",
+                        "host_organization_name": "Max Planck Society",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I149899117"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": "cc-by",
+                    "license_id": "https://openalex.org/licenses/cc-by",
+                    "version": "submittedVersion",
+                    "is_accepted": false,
+                    "is_published": false,
+                    "raw_source_name": "Scientific Reports",
+                    "raw_type": "info:eu-repo/semantics/article"
+                }
+            ]
+        },
+        {
+            "id": "https://openalex.org/W3043321626",
+            "title": "Challenges for biophysical modeling of microstructure",
+            "type": "article",
+            "publication_year": 2020,
+            "open_access": {
+                "is_oa": true,
+                "oa_status": "hybrid",
+                "oa_url": "https://www.sciencedirect.com/science/article/pii/S0165027020302843/pdf",
+                "any_repository_has_fulltext": true
+            },
+            "locations": [
+                {
+                    "id": "doi:10.1016/j.jneumeth.2020.108861",
+                    "is_oa": true,
+                    "landing_page_url": "https://doi.org/10.1016/j.jneumeth.2020.108861",
+                    "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0165027020302843/pdf",
+                    "source": {
+                        "id": "https://openalex.org/S132751470",
+                        "display_name": "Journal of Neuroscience Methods",
+                        "issn_l": "0165-0270",
+                        "issn": [
+                            "0165-0270",
+                            "1872-678X"
+                        ],
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": true,
+                        "listed_in": [
+                            "cwts-core",
+                            "doyens",
+                            "jufo-1",
+                            "medline",
+                            "norway-1"
+                        ],
+                        "host_organization": "https://openalex.org/P4310320990",
+                        "host_organization_name": "Elsevier BV",
+                        "host_organization_lineage": [
+                            "https://openalex.org/P4310320990"
+                        ],
+                        "host_organization_lineage_names": [
+                            "Elsevier BV"
+                        ],
+                        "type": "journal"
+                    },
+                    "license": "cc-by-nc-nd",
+                    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+                    "version": "publishedVersion",
+                    "is_accepted": true,
+                    "is_published": true,
+                    "raw_source_name": "Journal of Neuroscience Methods",
+                    "raw_type": "journal-article"
+                },
+                {
+                    "id": "pmid:32692999",
+                    "is_oa": false,
+                    "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/32692999",
+                    "pdf_url": null,
+                    "source": {
+                        "id": "https://openalex.org/S4306525036",
+                        "display_name": "PubMed",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I1299303238",
+                        "host_organization_name": "National Institutes of Health",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I1299303238"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": null,
+                    "license_id": null,
+                    "version": "publishedVersion",
+                    "is_accepted": true,
+                    "is_published": true,
+                    "raw_source_name": "Journal of neuroscience methods",
+                    "raw_type": "Journal Article"
+                },
+                {
+                    "id": "pmh:oai:https://orca.cardiff.ac.uk:147908",
+                    "is_oa": false,
+                    "landing_page_url": "https://orca.cardiff.ac.uk/id/eprint/147908/1/1-s2.0-S0165027020302843-main.pdf",
+                    "pdf_url": "https://orca.cardiff.ac.uk/id/eprint/147908/1/1-s2.0-S0165027020302843-main.pdf",
+                    "source": {
+                        "id": "https://openalex.org/S4306401195",
+                        "display_name": "ORCA Online Research @Cardiff (Cardiff University)",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I79510175",
+                        "host_organization_name": "Cardiff University",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I79510175"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": null,
+                    "license_id": null,
+                    "version": "acceptedVersion",
+                    "is_accepted": true,
+                    "is_published": false,
+                    "raw_source_name": "",
+                    "raw_type": "Article"
+                },
+                {
+                    "id": "pmh:oai:pubmedcentral.nih.gov:10163379",
+                    "is_oa": true,
+                    "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/10163379",
+                    "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10163379/pdf/nihms-1888704.pdf",
+                    "source": {
+                        "id": "https://openalex.org/S2764455111",
+                        "display_name": "PubMed Central",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": true,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I1299303238",
+                        "host_organization_name": "National Institutes of Health",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I1299303238"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": "cc-by-nc-nd",
+                    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+                    "version": "submittedVersion",
+                    "is_accepted": false,
+                    "is_published": false,
+                    "raw_source_name": "J Neurosci Methods",
+                    "raw_type": "Text"
+                },
+                {
+                    "id": "pmh:oai:eprints.ucl.ac.uk.OAI2:10109544",
+                    "is_oa": false,
+                    "landing_page_url": "https://discovery.ucl.ac.uk/id/eprint/10109544/",
+                    "pdf_url": null,
+                    "source": {
+                        "id": "https://openalex.org/S4306400024",
+                        "display_name": "UCL Discovery (University College London)",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I45129253",
+                        "host_organization_name": "University College London",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I45129253"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": null,
+                    "license_id": null,
+                    "version": "submittedVersion",
+                    "is_accepted": false,
+                    "is_published": false,
+                    "raw_source_name": "Journal of Neuroscience Methods , 344 , Article 108861. (2020)",
+                    "raw_type": "Article"
+                },
+                {
+                    "id": "pmh:oai:infoscience.epfl.ch:279418",
+                    "is_oa": true,
+                    "landing_page_url": "https://infoscience.epfl.ch/handle/20.500.14299/170895",
+                    "pdf_url": null,
+                    "source": {
+                        "id": "https://openalex.org/S4306400487",
+                        "display_name": "Infoscience (Ecole Polytechnique F\u00e9d\u00e9rale de Lausanne)",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": true,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I5124864",
+                        "host_organization_name": "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I5124864"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": "cc-by-nc-nd",
+                    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+                    "version": "submittedVersion",
+                    "is_accepted": false,
+                    "is_published": false,
+                    "raw_source_name": "",
+                    "raw_type": "review"
+                }
+            ]
+        },
+        {
+            "id": "https://openalex.org/W2802229722",
+            "title": "Imaging brain microstructure with diffusion MRI: practicality and applications",
+            "type": "article",
+            "publication_year": 2017,
+            "open_access": {
+                "is_oa": true,
+                "oa_status": "bronze",
+                "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/nbm.3841",
+                "any_repository_has_fulltext": true
+            },
+            "locations": [
+                {
+                    "id": "doi:10.1002/nbm.3841",
+                    "is_oa": true,
+                    "landing_page_url": "https://doi.org/10.1002/nbm.3841",
+                    "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/nbm.3841",
+                    "source": {
+                        "id": "https://openalex.org/S45012897",
+                        "display_name": "NMR in Biomedicine",
+                        "issn_l": "0952-3480",
+                        "issn": [
+                            "0952-3480",
+                            "1099-1492"
+                        ],
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": true,
+                        "listed_in": [
+                            "cwts-core",
+                            "doyens",
+                            "jufo-1",
+                            "medline",
+                            "norway-1"
+                        ],
+                        "host_organization": "https://openalex.org/P4310320595",
+                        "host_organization_name": "Wiley",
+                        "host_organization_lineage": [
+                            "https://openalex.org/P4310320595"
+                        ],
+                        "host_organization_lineage_names": [
+                            "Wiley"
+                        ],
+                        "type": "journal"
+                    },
+                    "license": null,
+                    "license_id": null,
+                    "version": "publishedVersion",
+                    "is_accepted": true,
+                    "is_published": true,
+                    "raw_source_name": "NMR in Biomedicine",
+                    "raw_type": "journal-article"
+                },
+                {
+                    "id": "pmid:29193413",
+                    "is_oa": false,
+                    "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/29193413",
+                    "pdf_url": null,
+                    "source": {
+                        "id": "https://openalex.org/S4306525036",
+                        "display_name": "PubMed",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I1299303238",
+                        "host_organization_name": "National Institutes of Health",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I1299303238"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": null,
+                    "license_id": null,
+                    "version": "publishedVersion",
+                    "is_accepted": true,
+                    "is_published": true,
+                    "raw_source_name": "NMR in biomedicine",
+                    "raw_type": "Journal Article"
+                },
+                {
+                    "id": "pmh:oai:eprints.ucl.ac.uk.OAI2:10043077",
+                    "is_oa": false,
+                    "landing_page_url": "https://discovery.ucl.ac.uk/id/eprint/10043077/",
+                    "pdf_url": null,
+                    "source": {
+                        "id": "https://openalex.org/S4306400024",
+                        "display_name": "UCL Discovery (University College London)",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I45129253",
+                        "host_organization_name": "University College London",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I45129253"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": null,
+                    "license_id": null,
+                    "version": "submittedVersion",
+                    "is_accepted": false,
+                    "is_published": false,
+                    "raw_source_name": "NMR in Biomedicine , 32 (4) , Article e3841. (2019)",
+                    "raw_type": "Article"
+                },
+                {
+                    "id": "pmh:oai:lup.lub.lu.se:5df41ae0-438a-4470-b23b-e3f97a5c5c97",
+                    "is_oa": false,
+                    "landing_page_url": "https://lup.lub.lu.se/record/5df41ae0-438a-4470-b23b-e3f97a5c5c97",
+                    "pdf_url": null,
+                    "source": {
+                        "id": "https://openalex.org/S4306400536",
+                        "display_name": "Lund University Publications (Lund University)",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I187531555",
+                        "host_organization_name": "Lund University",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I187531555"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": null,
+                    "license_id": null,
+                    "version": "submittedVersion",
+                    "is_accepted": false,
+                    "is_published": false,
+                    "raw_source_name": "ISSN: 0952-3480",
+                    "raw_type": "contributiontojournal/systematicreview"
+                },
+                {
+                    "id": "pmh:oai:pure.atira.dk:publications/5805a47b-2534-44bd-a59a-85e630d0de58",
+                    "is_oa": true,
+                    "landing_page_url": "https://orbit.dtu.dk/en/publications/5805a47b-2534-44bd-a59a-85e630d0de58",
+                    "pdf_url": null,
+                    "source": {
+                        "id": "https://openalex.org/S4306400705",
+                        "display_name": "Technical University of Denmark, DTU Orbit (Technical University of Denmark, DTU)",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I96673099",
+                        "host_organization_name": "Technical University of Denmark",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I96673099"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": "other-oa",
+                    "license_id": "https://openalex.org/licenses/other-oa",
+                    "version": "submittedVersion",
+                    "is_accepted": false,
+                    "is_published": false,
+                    "raw_source_name": "Alexander , D C , Dyrby , T B , Nilsson , M &amp; Zhang , H 2018 , ' Imaging brain microstructure with diffusion MRI: Practicality and applications : practicality and applications ' , N M R in Biomedicine , vol. 32 , no. 4 , e3841 . https://doi.org/10.1002/nbm.3841",
+                    "raw_type": "article"
+                }
+            ]
+        },
+        {
+            "id": "https://openalex.org/W4407710349",
+            "title": "Interpretation of inhomogeneous magnetization transfer in myelin water using a four\u2010pool model with dipolar reservoirs",
+            "type": "article",
+            "publication_year": 2025,
+            "open_access": {
+                "is_oa": true,
+                "oa_status": "hybrid",
+                "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mrm.30465",
+                "any_repository_has_fulltext": true
+            },
+            "locations": [
+                {
+                    "id": "doi:10.1002/mrm.30465",
+                    "is_oa": true,
+                    "landing_page_url": "https://doi.org/10.1002/mrm.30465",
+                    "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mrm.30465",
+                    "source": {
+                        "id": "https://openalex.org/S111160002",
+                        "display_name": "Magnetic Resonance in Medicine",
+                        "issn_l": "0740-3194",
+                        "issn": [
+                            "0740-3194",
+                            "1522-2594"
+                        ],
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": true,
+                        "listed_in": [
+                            "cwts-core",
+                            "doyens",
+                            "jufo-1",
+                            "medline",
+                            "norway-1"
+                        ],
+                        "host_organization": "https://openalex.org/P4310320595",
+                        "host_organization_name": "Wiley",
+                        "host_organization_lineage": [
+                            "https://openalex.org/P4310320595"
+                        ],
+                        "host_organization_lineage_names": [
+                            "Wiley"
+                        ],
+                        "type": "journal"
+                    },
+                    "license": "cc-by-nc",
+                    "license_id": "https://openalex.org/licenses/cc-by-nc",
+                    "version": "publishedVersion",
+                    "is_accepted": true,
+                    "is_published": true,
+                    "raw_source_name": "Magnetic Resonance in Medicine",
+                    "raw_type": "journal-article"
+                },
+                {
+                    "id": "pmid:39963772",
+                    "is_oa": false,
+                    "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/39963772",
+                    "pdf_url": null,
+                    "source": {
+                        "id": "https://openalex.org/S4306525036",
+                        "display_name": "PubMed",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I1299303238",
+                        "host_organization_name": "National Institutes of Health",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I1299303238"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": null,
+                    "license_id": null,
+                    "version": "publishedVersion",
+                    "is_accepted": true,
+                    "is_published": true,
+                    "raw_source_name": "Magnetic resonance in medicine",
+                    "raw_type": "Journal Article"
+                },
+                {
+                    "id": "pmh:oai:www.repository.cam.ac.uk:1810/380353",
+                    "is_oa": true,
+                    "landing_page_url": "https://www.repository.cam.ac.uk/handle/1810/380353",
+                    "pdf_url": "https://www.repository.cam.ac.uk/bitstreams/4d16b409-759a-4802-b7ed-58b18dde753f/download",
+                    "source": {
+                        "id": "https://openalex.org/S4306401777",
+                        "display_name": "Apollo (University of Cambridge)",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I241749",
+                        "host_organization_name": "University of Cambridge",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I241749"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": "cc-by-nc",
+                    "license_id": "https://openalex.org/licenses/cc-by-nc",
+                    "version": "submittedVersion",
+                    "is_accepted": false,
+                    "is_published": false,
+                    "raw_source_name": null,
+                    "raw_type": "Article"
+                },
+                {
+                    "id": "pmh:oai:europepmc.org:10831553",
+                    "is_oa": true,
+                    "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/12021340",
+                    "pdf_url": null,
+                    "source": {
+                        "id": "https://openalex.org/S4306400806",
+                        "display_name": "Europe PMC (PubMed Central)",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I1303153112",
+                        "host_organization_name": "European Bioinformatics Institute",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I1303153112"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": "cc-by-nc",
+                    "license_id": "https://openalex.org/licenses/cc-by-nc",
+                    "version": "submittedVersion",
+                    "is_accepted": false,
+                    "is_published": false,
+                    "raw_source_name": null,
+                    "raw_type": "Text"
+                },
+                {
+                    "id": "pmh:oai:pubmedcentral.nih.gov:12021340",
+                    "is_oa": true,
+                    "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/12021340",
+                    "pdf_url": null,
+                    "source": {
+                        "id": "https://openalex.org/S2764455111",
+                        "display_name": "PubMed Central",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": true,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I1299303238",
+                        "host_organization_name": "National Institutes of Health",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I1299303238"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": "cc-by-nc",
+                    "license_id": "https://openalex.org/licenses/cc-by-nc",
+                    "version": "submittedVersion",
+                    "is_accepted": false,
+                    "is_published": false,
+                    "raw_source_name": "Magn Reson Med",
+                    "raw_type": "Text"
+                }
+            ]
+        },
+        {
+            "id": "https://openalex.org/W2803916235",
+            "title": "Microstructural imaging of the human brain with a \u2018super-scanner\u2019: 10 key advantages of ultra-strong gradients for diffusion MRI",
+            "type": "article",
+            "publication_year": 2018,
+            "open_access": {
+                "is_oa": true,
+                "oa_status": "green",
+                "oa_url": "https://research.manchester.ac.uk/en/publications/984c0dad-a2d4-4cb1-9689-8851943f8218",
+                "any_repository_has_fulltext": true
+            },
+            "locations": [
+                {
+                    "id": "doi:10.1016/j.neuroimage.2018.05.047",
+                    "is_oa": false,
+                    "landing_page_url": "https://doi.org/10.1016/j.neuroimage.2018.05.047",
+                    "pdf_url": null,
+                    "source": {
+                        "id": "https://openalex.org/S103225281",
+                        "display_name": "NeuroImage",
+                        "issn_l": "1053-8119",
+                        "issn": [
+                            "1053-8119",
+                            "1095-9572"
+                        ],
+                        "is_oa": false,
+                        "is_in_doaj": true,
+                        "is_core": true,
+                        "listed_in": [
+                            "cwts-core",
+                            "doaj",
+                            "doyens",
+                            "jufo-3",
+                            "medline",
+                            "norway-2"
+                        ],
+                        "host_organization": "https://openalex.org/P4310320990",
+                        "host_organization_name": "Elsevier BV",
+                        "host_organization_lineage": [
+                            "https://openalex.org/P4310320990"
+                        ],
+                        "host_organization_lineage_names": [
+                            "Elsevier BV"
+                        ],
+                        "type": "journal"
+                    },
+                    "license": null,
+                    "license_id": null,
+                    "version": "publishedVersion",
+                    "is_accepted": true,
+                    "is_published": true,
+                    "raw_source_name": "NeuroImage",
+                    "raw_type": "journal-article"
+                },
+                {
+                    "id": "pmid:29793061",
+                    "is_oa": false,
+                    "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/29793061",
+                    "pdf_url": null,
+                    "source": {
+                        "id": "https://openalex.org/S4306525036",
+                        "display_name": "PubMed",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I1299303238",
+                        "host_organization_name": "National Institutes of Health",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I1299303238"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": null,
+                    "license_id": null,
+                    "version": "publishedVersion",
+                    "is_accepted": true,
+                    "is_published": true,
+                    "raw_source_name": "NeuroImage",
+                    "raw_type": "Journal Article"
+                },
+                {
+                    "id": "pmh:oai:pure.atira.dk:openaire/984c0dad-a2d4-4cb1-9689-8851943f8218",
+                    "is_oa": true,
+                    "landing_page_url": "https://research.manchester.ac.uk/en/publications/984c0dad-a2d4-4cb1-9689-8851943f8218",
+                    "pdf_url": null,
+                    "source": {
+                        "id": "https://openalex.org/S4306400662",
+                        "display_name": "Research Explorer (The University of Manchester)",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I28407311",
+                        "host_organization_name": "University of Manchester",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I28407311"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": "other-oa",
+                    "license_id": "https://openalex.org/licenses/other-oa",
+                    "version": "publishedVersion",
+                    "is_accepted": true,
+                    "is_published": true,
+                    "raw_source_name": "Jones, D K, Alexander, D C, Bowtell, R, Cercignani, M, Dell'acqua, F, Mchugh, D J, Miller, K L, Palombo, M, Parker, G J M, Rudrapatna, U S & Tax, C M W 2018, 'Microstructural imaging of the human brain with a \u2018super-scanner\u2019: 10 key advantages of ultra-strong gradients for diffusion MRI', NeuroImage, vol. 182, pp. 8-38. https://doi.org/10.1016/j.neuroimage.2018.05.047",
+                    "raw_type": "info:eu-repo/semantics/article"
+                },
+                {
+                    "id": "pmh:oai:http://orca.cardiff.ac.uk:111812",
+                    "is_oa": false,
+                    "landing_page_url": "https://orca.cardiff.ac.uk/id/eprint/111812/1/Jones.%20Microstructural%20imaging.pdf",
+                    "pdf_url": "https://orca.cardiff.ac.uk/id/eprint/111812/1/Jones.%20Microstructural%20imaging.pdf",
+                    "source": {
+                        "id": "https://openalex.org/S4306401195",
+                        "display_name": "ORCA Online Research @Cardiff (Cardiff University)",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I79510175",
+                        "host_organization_name": "Cardiff University",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I79510175"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": null,
+                    "license_id": null,
+                    "version": "acceptedVersion",
+                    "is_accepted": true,
+                    "is_published": false,
+                    "raw_source_name": "",
+                    "raw_type": "Article"
+                },
+                {
+                    "id": "pmh:oai:https://orca.cardiff.ac.uk:111812",
+                    "is_oa": false,
+                    "landing_page_url": "https://orca.cardiff.ac.uk/id/eprint/111812/1/Jones.%20Microstructural%20imaging.pdf",
+                    "pdf_url": "https://orca.cardiff.ac.uk/id/eprint/111812/1/Jones.%20Microstructural%20imaging.pdf",
+                    "source": {
+                        "id": "https://openalex.org/S4306401195",
+                        "display_name": "ORCA Online Research @Cardiff (Cardiff University)",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I79510175",
+                        "host_organization_name": "Cardiff University",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I79510175"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": null,
+                    "license_id": null,
+                    "version": "acceptedVersion",
+                    "is_accepted": true,
+                    "is_published": false,
+                    "raw_source_name": null,
+                    "raw_type": "Article"
+                },
+                {
+                    "id": "pmh:oai:sro.sussex.ac.uk:76471",
+                    "is_oa": true,
+                    "landing_page_url": "http://sro.sussex.ac.uk/id/eprint/76471/1/Jones_et_al_Main%20Manuscript%20v7%20%20-%2027%20April.pdf",
+                    "pdf_url": "http://sro.sussex.ac.uk/id/eprint/76471/1/Jones_et_al_Main%20Manuscript%20v7%20%20-%2027%20April.pdf",
+                    "source": {
+                        "id": "https://openalex.org/S4306400129",
+                        "display_name": "Sussex Research Online (University of Sussex)",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I162608824",
+                        "host_organization_name": "University of Sussex",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I162608824"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": null,
+                    "license_id": null,
+                    "version": "submittedVersion",
+                    "is_accepted": false,
+                    "is_published": false,
+                    "raw_source_name": "",
+                    "raw_type": "Article"
+                },
+                {
+                    "id": "pmh:oai:researchbank.acu.edu.au:fhs_pub-10776",
+                    "is_oa": false,
+                    "landing_page_url": "https://researchbank.acu.edu.au/fhs_pub/9778",
+                    "pdf_url": null,
+                    "source": {
+                        "id": "https://openalex.org/S4306401783",
+                        "display_name": "Research Bank (Australian Catholic University)",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I86695891",
+                        "host_organization_name": "Australian Catholic University",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I86695891"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": null,
+                    "license_id": null,
+                    "version": "submittedVersion",
+                    "is_accepted": false,
+                    "is_published": false,
+                    "raw_source_name": "Faculty of Health Sciences Publications",
+                    "raw_type": "text"
+                },
+                {
+                    "id": "pmh:oai:eprints.nottingham.ac.uk:52684",
+                    "is_oa": true,
+                    "landing_page_url": "http://eprints.nottingham.ac.uk/52684/",
+                    "pdf_url": null,
+                    "source": {
+                        "id": "https://openalex.org/S4306402014",
+                        "display_name": "Nottingham ePrints (University of Nottingham)",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I142263535",
+                        "host_organization_name": "University of Nottingham",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I142263535"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": "cc-by-nc-nd",
+                    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+                    "version": "submittedVersion",
+                    "is_accepted": false,
+                    "is_published": false,
+                    "raw_source_name": "",
+                    "raw_type": "Article"
+                },
+                {
+                    "id": "pmh:oai:eprints.ucl.ac.uk.OAI2:10057030",
+                    "is_oa": false,
+                    "landing_page_url": "https://discovery.ucl.ac.uk/id/eprint/10057030/",
+                    "pdf_url": null,
+                    "source": {
+                        "id": "https://openalex.org/S4306400024",
+                        "display_name": "UCL Discovery (University College London)",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I45129253",
+                        "host_organization_name": "University College London",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I45129253"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": null,
+                    "license_id": null,
+                    "version": "submittedVersion",
+                    "is_accepted": false,
+                    "is_published": false,
+                    "raw_source_name": "NeuroImage , 182 pp. 8-38. (2018)",
+                    "raw_type": "Article"
+                },
+                {
+                    "id": "pmh:oai:figshare.com:article/23458625",
+                    "is_oa": true,
+                    "landing_page_url": "https://figshare.com/articles/journal_contribution/Microstructural_imaging_of_the_human_brain_with_a_super-scanner_10_key_advantages_of_ultra-strong_gradients_for_diffusion_MRI/23458625",
+                    "pdf_url": null,
+                    "source": {
+                        "id": "https://openalex.org/S4377196282",
+                        "display_name": "Figshare",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I4210132348",
+                        "host_organization_name": "Figshare (United Kingdom)",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I4210132348"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": "cc-by-nc-nd",
+                    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+                    "version": "submittedVersion",
+                    "is_accepted": false,
+                    "is_published": false,
+                    "raw_source_name": "",
+                    "raw_type": "Text"
+                },
+                {
+                    "id": "pmh:oai:https://orca.cardiff.ac.uk:147909",
+                    "is_oa": false,
+                    "landing_page_url": "https://orca.cardiff.ac.uk/id/eprint/147909/",
+                    "pdf_url": null,
+                    "source": {
+                        "id": "https://openalex.org/S4306401195",
+                        "display_name": "ORCA Online Research @Cardiff (Cardiff University)",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I79510175",
+                        "host_organization_name": "Cardiff University",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I79510175"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": null,
+                    "license_id": null,
+                    "version": "submittedVersion",
+                    "is_accepted": false,
+                    "is_published": false,
+                    "raw_source_name": "",
+                    "raw_type": "Article"
+                },
+                {
+                    "id": "pmh:oai:kclpure.kcl.ac.uk:openaire/ace127c8-3bb7-4807-94d0-65a5608113de",
+                    "is_oa": true,
+                    "landing_page_url": "https://kclpure.kcl.ac.uk/portal/files/102307163/Final_Version_of_Manuscript_20_May.pdf",
+                    "pdf_url": null,
+                    "source": {
+                        "id": "https://openalex.org/S4306400216",
+                        "display_name": "Research Portal (King's College London)",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I183935753",
+                        "host_organization_name": "King's College London",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I183935753"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": "cc-by-nc-nd",
+                    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+                    "version": "submittedVersion",
+                    "is_accepted": false,
+                    "is_published": false,
+                    "raw_source_name": "Jones, D K, Alexander, D C, Bowtell, R, Cercignani, M, Dell'Acqua, F, McHugh, D J, Miller, K L, Palombo, M, Parker, G J M, Rudrapatna, U S & Tax, C M W 2018, 'Microstructural imaging of the human brain with a \u2018super-scanner\u2019 : 10 key advantages of ultra-strong gradients for diffusion MRI', NeuroImage, vol. 182, pp. 8-38. https://doi.org/10.1016/j.neuroimage.2018.05.047",
+                    "raw_type": "info:eu-repo/semantics/article"
+                },
+                {
+                    "id": "pmh:oai:nottingham-repository.worktribe.com:933347",
+                    "is_oa": true,
+                    "landing_page_url": "https://nottingham-repository.worktribe.com/output/933347",
+                    "pdf_url": null,
+                    "source": {
+                        "id": "https://openalex.org/S4306402483",
+                        "display_name": "Repository@Nottingham (University of Nottingham)",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I142263535",
+                        "host_organization_name": "University of Nottingham",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I142263535"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": "cc-by-nc-nd",
+                    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+                    "version": "submittedVersion",
+                    "is_accepted": false,
+                    "is_published": false,
+                    "raw_source_name": null,
+                    "raw_type": "Journal Article"
+                }
+            ]
+        },
+        {
+            "id": "https://openalex.org/W4411986343",
+            "title": "Quantum magnetization exchange through transient hydrogen bond matrix defines magnetic resonance signal relaxation and anisotropy in central nervous system",
+            "type": "article",
+            "publication_year": 2025,
+            "open_access": {
+                "is_oa": true,
+                "oa_status": "gold",
+                "oa_url": "https://www.nature.com/articles/s41598-025-07808-7.pdf",
+                "any_repository_has_fulltext": true
+            },
+            "locations": [
+                {
+                    "id": "doi:10.1038/s41598-025-07808-7",
+                    "is_oa": true,
+                    "landing_page_url": "https://doi.org/10.1038/s41598-025-07808-7",
+                    "pdf_url": "https://www.nature.com/articles/s41598-025-07808-7.pdf",
+                    "source": {
+                        "id": "https://openalex.org/S196734849",
+                        "display_name": "Scientific Reports",
+                        "issn_l": "2045-2322",
+                        "issn": [
+                            "2045-2322"
+                        ],
+                        "is_oa": true,
+                        "is_in_doaj": true,
+                        "is_core": true,
+                        "listed_in": [
+                            "cwts-core",
+                            "doaj",
+                            "doyens",
+                            "jufo-1",
+                            "medline",
+                            "norway-1"
+                        ],
+                        "host_organization": "https://openalex.org/P4310319908",
+                        "host_organization_name": "Nature Portfolio",
+                        "host_organization_lineage": [
+                            "https://openalex.org/P4310319908",
+                            "https://openalex.org/P4310319965"
+                        ],
+                        "host_organization_lineage_names": [
+                            "Nature Portfolio",
+                            "Springer Nature"
+                        ],
+                        "type": "journal"
+                    },
+                    "license": "cc-by-nc-nd",
+                    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+                    "version": "publishedVersion",
+                    "is_accepted": true,
+                    "is_published": true,
+                    "raw_source_name": "Scientific Reports",
+                    "raw_type": "journal-article"
+                },
+                {
+                    "id": "pmid:40610489",
+                    "is_oa": false,
+                    "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/40610489",
+                    "pdf_url": null,
+                    "source": {
+                        "id": "https://openalex.org/S4306525036",
+                        "display_name": "PubMed",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I1299303238",
+                        "host_organization_name": "National Institutes of Health",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I1299303238"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": null,
+                    "license_id": null,
+                    "version": "publishedVersion",
+                    "is_accepted": true,
+                    "is_published": true,
+                    "raw_source_name": "Scientific reports",
+                    "raw_type": "Journal Article"
+                },
+                {
+                    "id": "pmh:oai:europepmc.org:11037968",
+                    "is_oa": true,
+                    "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/12229511",
+                    "pdf_url": null,
+                    "source": {
+                        "id": "https://openalex.org/S4306400806",
+                        "display_name": "Europe PMC (PubMed Central)",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I1303153112",
+                        "host_organization_name": "European Bioinformatics Institute",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I1303153112"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": "cc-by-nc-nd",
+                    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+                    "version": "submittedVersion",
+                    "is_accepted": false,
+                    "is_published": false,
+                    "raw_source_name": null,
+                    "raw_type": "Text"
+                },
+                {
+                    "id": "pmh:oai:pubmedcentral.nih.gov:12229511",
+                    "is_oa": true,
+                    "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/12229511",
+                    "pdf_url": null,
+                    "source": {
+                        "id": "https://openalex.org/S2764455111",
+                        "display_name": "PubMed Central",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": true,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I1299303238",
+                        "host_organization_name": "National Institutes of Health",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I1299303238"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": "cc-by-nc-nd",
+                    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+                    "version": "submittedVersion",
+                    "is_accepted": false,
+                    "is_published": false,
+                    "raw_source_name": "Sci Rep",
+                    "raw_type": "Text"
+                },
+                {
+                    "id": "pmh:oai:digitalcommons.wustl.edu:oa_4-6464",
+                    "is_oa": false,
+                    "landing_page_url": "https://digitalcommons.wustl.edu/oa_4/5477",
+                    "pdf_url": null,
+                    "source": {
+                        "id": "https://openalex.org/S4306400764",
+                        "display_name": "Digital Commons@Becker (Washington University School of Medicine)",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I204465549",
+                        "host_organization_name": "Washington University in St. Louis",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I204465549"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": null,
+                    "license_id": null,
+                    "version": "submittedVersion",
+                    "is_accepted": false,
+                    "is_published": false,
+                    "raw_source_name": "2020-Current year OA Pubs",
+                    "raw_type": "text"
+                },
+                {
+                    "id": "pmh:oai:doaj.org/article:f936a7d341d243cfa575e22c1f8c77cf",
+                    "is_oa": true,
+                    "landing_page_url": "https://doaj.org/article/f936a7d341d243cfa575e22c1f8c77cf",
+                    "pdf_url": null,
+                    "source": {
+                        "id": "https://openalex.org/S4306401280",
+                        "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": null,
+                        "host_organization_name": null,
+                        "host_organization_lineage": [],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": "cc-by-sa",
+                    "license_id": "https://openalex.org/licenses/cc-by-sa",
+                    "version": "submittedVersion",
+                    "is_accepted": false,
+                    "is_published": false,
+                    "raw_source_name": "Scientific Reports, Vol 15, Iss 1, Pp 1-17 (2025)",
+                    "raw_type": "article"
+                }
+            ]
+        },
+        {
+            "id": "https://openalex.org/W4286233416",
+            "title": "Rapid quantitative magnetization transfer imaging: utilizing the hybrid state and the generalized Bloch model",
+            "type": "article",
+            "publication_year": 2022,
+            "open_access": {
+                "is_oa": true,
+                "oa_status": "green",
+                "oa_url": "https://arxiv.org/pdf/2207.08259",
+                "any_repository_has_fulltext": true
+            },
+            "locations": [
+                {
+                    "id": "pmid:38073093",
+                    "is_oa": false,
+                    "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/38073093",
+                    "pdf_url": null,
+                    "source": {
+                        "id": "https://openalex.org/S4306525036",
+                        "display_name": "PubMed",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I1299303238",
+                        "host_organization_name": "National Institutes of Health",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I1299303238"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": null,
+                    "license_id": null,
+                    "version": "publishedVersion",
+                    "is_accepted": true,
+                    "is_published": true,
+                    "raw_source_name": "Magnetic resonance in medicine",
+                    "raw_type": "Journal Article"
+                },
+                {
+                    "id": "pmh:oai:arXiv.org:2207.08259",
+                    "is_oa": true,
+                    "landing_page_url": "http://arxiv.org/abs/2207.08259",
+                    "pdf_url": "https://arxiv.org/pdf/2207.08259",
+                    "source": {
+                        "id": "https://openalex.org/S4306400194",
+                        "display_name": "arXiv (Cornell University)",
+                        "issn_l": "2331-8422",
+                        "issn": [
+                            "2331-8422"
+                        ],
+                        "is_oa": true,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I205783295",
+                        "host_organization_name": "Cornell University",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I205783295"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": "cc-by",
+                    "license_id": "https://openalex.org/licenses/cc-by",
+                    "version": "submittedVersion",
+                    "is_accepted": false,
+                    "is_published": false,
+                    "raw_source_name": null,
+                    "raw_type": "text"
+                },
+                {
+                    "id": "pmh:oai:europepmc.org:10869333",
+                    "is_oa": true,
+                    "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/12056700",
+                    "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12056700/pdf/nihms-2070506.pdf",
+                    "source": {
+                        "id": "https://openalex.org/S4306400806",
+                        "display_name": "Europe PMC (PubMed Central)",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I1303153112",
+                        "host_organization_name": "European Bioinformatics Institute",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I1303153112"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": null,
+                    "license_id": null,
+                    "version": "submittedVersion",
+                    "is_accepted": false,
+                    "is_published": false,
+                    "raw_source_name": null,
+                    "raw_type": "Text"
+                },
+                {
+                    "id": "pmh:oai:pubmedcentral.nih.gov:12056700",
+                    "is_oa": true,
+                    "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/12056700",
+                    "pdf_url": null,
+                    "source": {
+                        "id": "https://openalex.org/S2764455111",
+                        "display_name": "PubMed Central",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": true,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I1299303238",
+                        "host_organization_name": "National Institutes of Health",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I1299303238"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": null,
+                    "license_id": null,
+                    "version": "submittedVersion",
+                    "is_accepted": false,
+                    "is_published": false,
+                    "raw_source_name": "Magn Reson Med",
+                    "raw_type": "Text"
+                },
+                {
+                    "id": "doi:10.48550/arxiv.2207.08259",
+                    "is_oa": true,
+                    "landing_page_url": "https://doi.org/10.48550/arxiv.2207.08259",
+                    "pdf_url": null,
+                    "source": {
+                        "id": "https://openalex.org/S4306400194",
+                        "display_name": "arXiv (Cornell University)",
+                        "issn_l": "2331-8422",
+                        "issn": [
+                            "2331-8422"
+                        ],
+                        "is_oa": true,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I205783295",
+                        "host_organization_name": "Cornell University",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I205783295"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": "cc-by",
+                    "license_id": "https://openalex.org/licenses/cc-by",
+                    "version": null,
+                    "is_accepted": false,
+                    "is_published": null,
+                    "raw_source_name": null,
+                    "raw_type": "article-journal"
+                }
+            ]
+        },
+        {
+            "id": "https://openalex.org/W4414981017",
+            "title": "MC BTS: simultaneously resolving magnetization transfer effect and relaxation for multiple components",
+            "type": "preprint",
+            "publication_year": 2025,
+            "open_access": {
+                "is_oa": true,
+                "oa_status": "green",
+                "oa_url": "https://arxiv.org/pdf/2510.06022",
+                "any_repository_has_fulltext": true
+            },
+            "locations": [
+                {
+                    "id": "pmh:oai:arXiv.org:2510.06022",
+                    "is_oa": true,
+                    "landing_page_url": "http://arxiv.org/abs/2510.06022",
+                    "pdf_url": "https://arxiv.org/pdf/2510.06022",
+                    "source": {
+                        "id": "https://openalex.org/S4306400194",
+                        "display_name": "arXiv (Cornell University)",
+                        "issn_l": "2331-8422",
+                        "issn": [
+                            "2331-8422"
+                        ],
+                        "is_oa": true,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I205783295",
+                        "host_organization_name": "Cornell University",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I205783295"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": null,
+                    "license_id": null,
+                    "version": "submittedVersion",
+                    "is_accepted": false,
+                    "is_published": false,
+                    "raw_source_name": null,
+                    "raw_type": "text"
+                },
+                {
+                    "id": "doi:10.48550/arxiv.2510.06022",
+                    "is_oa": true,
+                    "landing_page_url": "https://doi.org/10.48550/arxiv.2510.06022",
+                    "pdf_url": null,
+                    "source": {
+                        "id": "https://openalex.org/S4306400194",
+                        "display_name": "arXiv (Cornell University)",
+                        "issn_l": "2331-8422",
+                        "issn": [
+                            "2331-8422"
+                        ],
+                        "is_oa": true,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I205783295",
+                        "host_organization_name": "Cornell University",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I205783295"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": null,
+                    "license_id": null,
+                    "version": null,
+                    "is_accepted": false,
+                    "is_published": null,
+                    "raw_source_name": null,
+                    "raw_type": "Preprint"
+                }
+            ]
+        },
+        {
+            "id": "https://openalex.org/W4409837057",
+            "title": "Quantum Magnetization Exchange through Transient Hydrogen Bond Matrix Defines Magnetic Resonance Signal Relaxation and Anisotropy in Central Nervous System",
+            "type": "preprint",
+            "publication_year": 2025,
+            "open_access": {
+                "is_oa": true,
+                "oa_status": "green",
+                "oa_url": "https://www.biorxiv.org/content/biorxiv/early/2025/04/26/2025.04.22.650086.full.pdf",
+                "any_repository_has_fulltext": true
+            },
+            "locations": [
+                {
+                    "id": "doi:10.1101/2025.04.22.650086",
+                    "is_oa": true,
+                    "landing_page_url": "https://doi.org/10.1101/2025.04.22.650086",
+                    "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2025/04/26/2025.04.22.650086.full.pdf",
+                    "source": {
+                        "id": "https://openalex.org/S4306402567",
+                        "display_name": "bioRxiv (Cold Spring Harbor Laboratory)",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "host_organization": "https://openalex.org/I2750212522",
+                        "host_organization_name": "Cold Spring Harbor Laboratory",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I2750212522"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": "cc-by-nc-nd",
+                    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+                    "version": "acceptedVersion",
+                    "is_accepted": true,
+                    "is_published": false,
+                    "raw_source_name": "bioRxiv",
+                    "raw_type": "posted-content"
+                }
+            ]
+        },
+        {
+            "id": "https://openalex.org/W4401659387",
+            "title": "Multicompartment imaging of the brain using a comprehensive MR imaging protocol",
+            "type": "article",
+            "publication_year": 2024,
+            "open_access": {
+                "is_oa": true,
+                "oa_status": "gold",
+                "oa_url": "https://doi.org/10.1016/j.neuroimage.2024.120800",
+                "any_repository_has_fulltext": true
+            },
+            "locations": [
+                {
+                    "id": "doi:10.1016/j.neuroimage.2024.120800",
+                    "is_oa": true,
+                    "landing_page_url": "https://doi.org/10.1016/j.neuroimage.2024.120800",
+                    "pdf_url": null,
+                    "source": {
+                        "id": "https://openalex.org/S103225281",
+                        "display_name": "NeuroImage",
+                        "issn_l": "1053-8119",
+                        "issn": [
+                            "1053-8119",
+                            "1095-9572"
+                        ],
+                        "is_oa": true,
+                        "is_in_doaj": true,
+                        "is_core": true,
+                        "listed_in": [
+                            "cwts-core",
+                            "doaj",
+                            "doyens",
+                            "jufo-3",
+                            "medline",
+                            "norway-2"
+                        ],
+                        "host_organization": "https://openalex.org/P4310320990",
+                        "host_organization_name": "Elsevier BV",
+                        "host_organization_lineage": [
+                            "https://openalex.org/P4310320990"
+                        ],
+                        "host_organization_lineage_names": [
+                            "Elsevier BV"
+                        ],
+                        "type": "journal"
+                    },
+                    "license": "cc-by",
+                    "license_id": "https://openalex.org/licenses/cc-by",
+                    "version": "publishedVersion",
+                    "is_accepted": true,
+                    "is_published": true,
+                    "raw_source_name": "NeuroImage",
+                    "raw_type": "journal-article"
+                },
+                {
+                    "id": "pmid:39159704",
+                    "is_oa": false,
+                    "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/39159704",
+                    "pdf_url": null,
+                    "source": {
+                        "id": "https://openalex.org/S4306525036",
+                        "display_name": "PubMed",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I1299303238",
+                        "host_organization_name": "National Institutes of Health",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I1299303238"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": null,
+                    "license_id": null,
+                    "version": "publishedVersion",
+                    "is_accepted": true,
+                    "is_published": true,
+                    "raw_source_name": "NeuroImage",
+                    "raw_type": "Journal Article"
+                },
+                {
+                    "id": "pmh:oai:escholarship.org:ark:/13030/qt0v15f3tb",
+                    "is_oa": true,
+                    "landing_page_url": "https://escholarship.org/uc/item/0v15f3tb",
+                    "pdf_url": "https://escholarship.org/content/qt0v15f3tb/qt0v15f3tb.pdf",
+                    "source": {
+                        "id": "https://openalex.org/S4306400115",
+                        "display_name": "eScholarship (California Digital Library)",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I2801248553",
+                        "host_organization_name": "California Digital Library",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I2801248553"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": "cc-by",
+                    "license_id": "https://openalex.org/licenses/cc-by",
+                    "version": "submittedVersion",
+                    "is_accepted": false,
+                    "is_published": false,
+                    "raw_source_name": "NeuroImage, vol 298",
+                    "raw_type": "article"
+                },
+                {
+                    "id": "pmh:oai:pubmedcentral.nih.gov:11629713",
+                    "is_oa": true,
+                    "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11629713",
+                    "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11629713/pdf/nihms-2040194.pdf",
+                    "source": {
+                        "id": "https://openalex.org/S2764455111",
+                        "display_name": "PubMed Central",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": true,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": "https://openalex.org/I1299303238",
+                        "host_organization_name": "National Institutes of Health",
+                        "host_organization_lineage": [
+                            "https://openalex.org/I1299303238"
+                        ],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": null,
+                    "license_id": null,
+                    "version": "submittedVersion",
+                    "is_accepted": false,
+                    "is_published": false,
+                    "raw_source_name": "Neuroimage",
+                    "raw_type": "Text"
+                },
+                {
+                    "id": "pmh:oai:doaj.org/article:69146f52575a4a099a6466eaa5c6fa01",
+                    "is_oa": false,
+                    "landing_page_url": "https://doaj.org/article/69146f52575a4a099a6466eaa5c6fa01",
+                    "pdf_url": null,
+                    "source": {
+                        "id": "https://openalex.org/S4306401280",
+                        "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+                        "issn_l": null,
+                        "issn": null,
+                        "is_oa": false,
+                        "is_in_doaj": false,
+                        "is_core": false,
+                        "listed_in": [],
+                        "host_organization": null,
+                        "host_organization_name": null,
+                        "host_organization_lineage": [],
+                        "host_organization_lineage_names": [],
+                        "type": "repository"
+                    },
+                    "license": null,
+                    "license_id": null,
+                    "version": "submittedVersion",
+                    "is_accepted": false,
+                    "is_published": false,
+                    "raw_source_name": "NeuroImage, Vol 298, Iss , Pp 120800- (2024)",
+                    "raw_type": "article"
+                }
+            ]
+        }
+    ],
+    "group_by": []
+}
