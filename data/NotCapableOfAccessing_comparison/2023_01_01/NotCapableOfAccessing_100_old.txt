@@ -1,0 +1,17 @@
+https://doi.org/10.5771/9783748921905-283
+https://doi.org/10.1016/b978-0-443-15301-3.00010-5
+https://arxiv.org/abs/2310.17914
+https://api.datacite.org/dois/10.48550/arxiv.2310.17914
+https://arxiv.org/abs/2311.05604
+https://api.datacite.org/dois/10.48550/arxiv.2311.05604
+https://doi.org/10.1109/irmmw-thz57677.2023.10299192
+https://doi.org/10.1007/978-3-030-79827-7
+https://doi.org/10.1016/j.ecoinf.2023.102359
+https://doi.org/10.1007/978-3-031-28238-6_25
+https://doi.org/10.7121/msi-eureka-10.16088.3.5
+https://pubmed.ncbi.nlm.nih.gov/37936347
+https://doi.org/10.1016/j.materresbull.2022.112003
+https://doi.org/10.1088/1674-1056/acf11f
+https://pubmed.ncbi.nlm.nih.gov/36309326
+https://doi.org/10.1088/1748-0221/18/11/c11025
+https://pubmed.ncbi.nlm.nih.gov/36926456

@@ -1,0 +1,555 @@
+{
+    "query_old": {
+        "query": {
+            "bool": {
+                "must": [
+                    {
+                        "term": {
+                            "publicState": {
+                                "value": "RELEASED"
+                            }
+                        }
+                    },
+                    {
+                        "term": {
+                            "versionState": {
+                                "value": "RELEASED"
+                            }
+                        }
+                    },
+                    {
+                        "range": {
+                            "metadata.datePublishedOnline": {
+                                "gte": "start_date+||/d",
+                                "lte": "end_date+||/d"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "sort": [
+            {
+                "metadata.title.keyword": {
+                    "order": "asc"
+                }
+            }
+        ],
+        "size": "1000000",
+        "from": "0"
+    },
+    "query_genres": {
+        "query": {
+            "bool": {
+                "must": [
+                    {
+                        "term": {
+                            "publicState": {
+                                "value": "RELEASED"
+                            }
+                        }
+                    },
+                    {
+                        "term": {
+                            "versionState": {
+                                "value": "RELEASED"
+                            }
+                        }
+                    },
+                    {
+                        "bool": {
+                            "must": [
+                                {
+                                    "bool": {
+                                        "should": [
+                                            {
+                                                "range": {
+                                                    "metadata.datePublishedInPrint": {
+                                                        "gte": "2023-01-01||/d",
+                                                        "lte": "2025-01-01||/d"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "range": {
+                                                    "metadata.datePublishedOnline": {
+                                                        "gte": "2023-01-01||/d",
+                                                        "lte": "2025-01-01||/d"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "range": {
+                                                    "metadata.dateAccepted": {
+                                                        "gte": "2023-01-01||/d",
+                                                        "lte": "2025-01-01||/d"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "range": {
+                                                    "metadata.dateSubmitted": {
+                                                        "gte": "2023-01-01||/d",
+                                                        "lte": "2025-01-01||/d"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "range": {
+                                                    "metadata.dateModified": {
+                                                        "gte": "2023-01-01||/d",
+                                                        "lte": "2025-01-01||/d"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "range": {
+                                                    "metadata.dateCreated": {
+                                                        "gte": "2023-01-01||/d",
+                                                        "lte": "2025-01-01||/d"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "bool": {
+                                        "should": [
+                                            {
+                                                "term": {
+                                                    "metadata.genre": {
+                                                        "value": "BOOK"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "term": {
+                                                    "metadata.genre": {
+                                                        "value": "BOOK_ITEM"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "term": {
+                                                    "metadata.genre": {
+                                                        "value": "CONFERENCE_PAPER"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "term": {
+                                                    "metadata.genre": {
+                                                        "value": "CONTRIBUTION_TO_COLLECTED_EDITION"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "term": {
+                                                    "metadata.genre": {
+                                                        "value": "ARTICLE"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "term": {
+                                                    "metadata.genre": {
+                                                        "value": "MONOGRAPH"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "bool": {
+                                                    "must": [
+                                                        {
+                                                            "term": {
+                                                                "metadata.genre": {
+                                                                    "value": "THESIS"
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "bool": {
+                                                                "should": [
+                                                                    {
+                                                                        "term": {
+                                                                            "metadata.degree": {
+                                                                                "value": "HABILITATION"
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "term": {
+                                                                            "metadata.degree": {
+                                                                                "value": "PHD"
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "sort": [
+            {
+                "metadata.title.keyword": {
+                    "order": "asc"
+                }
+            }
+        ],
+        "size": "20",
+        "from": "0"
+    },
+    "query_genres_files": {
+        "query": {
+            "bool": {
+                "must": [
+                    {
+                        "term": {
+                            "publicState": {
+                                "value": "RELEASED"
+                            }
+                        }
+                    },
+                    {
+                        "term": {
+                            "versionState": {
+                                "value": "RELEASED"
+                            }
+                        }
+                    },
+                    {
+                        "bool": {
+                            "must": [
+                                {
+                                    "bool": {
+                                        "should": [
+                                            {
+                                                "range": {
+                                                    "metadata.datePublishedInPrint": {
+                                                        "gte": "2023-01-01||/d",
+                                                        "lte": "2025-01-01||/d"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "range": {
+                                                    "metadata.datePublishedOnline": {
+                                                        "gte": "2023-01-01||/d",
+                                                        "lte": "2025-01-01||/d"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "range": {
+                                                    "metadata.dateAccepted": {
+                                                        "gte": "2023-01-01||/d",
+                                                        "lte": "2025-01-01||/d"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "range": {
+                                                    "metadata.dateSubmitted": {
+                                                        "gte": "2023-01-01||/d",
+                                                        "lte": "2025-01-01||/d"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "range": {
+                                                    "metadata.dateModified": {
+                                                        "gte": "2023-01-01||/d",
+                                                        "lte": "2025-01-01||/d"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "range": {
+                                                    "metadata.dateCreated": {
+                                                        "gte": "2023-01-01||/d",
+                                                        "lte": "2025-01-01||/d"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "bool": {
+                                        "should": [
+                                            {
+                                                "term": {
+                                                    "metadata.genre": {
+                                                        "value": "BOOK"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "term": {
+                                                    "metadata.genre": {
+                                                        "value": "BOOK_ITEM"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "term": {
+                                                    "metadata.genre": {
+                                                        "value": "CONFERENCE_PAPER"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "term": {
+                                                    "metadata.genre": {
+                                                        "value": "CONTRIBUTION_TO_COLLECTED_EDITION"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "term": {
+                                                    "metadata.genre": {
+                                                        "value": "ARTICLE"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "term": {
+                                                    "metadata.genre": {
+                                                        "value": "MONOGRAPH"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "bool": {
+                                                    "must": [
+                                                        {
+                                                            "term": {
+                                                                "metadata.genre": {
+                                                                    "value": "THESIS"
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "bool": {
+                                                                "should": [
+                                                                    {
+                                                                        "term": {
+                                                                            "metadata.degree": {
+                                                                                "value": "HABILITATION"
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "term": {
+                                                                            "metadata.degree": {
+                                                                                "value": "PHD"
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "bool": {
+                                        "should": [
+                                            {
+                                                "term": {
+                                                    "metadata.identifiers.type": {
+                                                        "value": "DOI"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "term": {
+                                                    "files.metadata.contentCategory.keyword": {
+                                                        "value": "post-print"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "nested": {
+                                                    "path": "files",
+                                                    "query": {
+                                                        "bool": {
+                                                            "must": [
+                                                                {
+                                                                    "term": {
+                                                                        "files.visibility": {
+                                                                            "value": "PUBLIC"
+                                                                        }
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "term": {
+                                                                        "files.metadata.contentCategory.keyword": {
+                                                                            "value": "publisher-version"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "sort": [
+            {
+                "metadata.title.keyword": {
+                    "order": "asc"
+                }
+            }
+        ],
+        "size": "20",
+        "from": "0"
+    },
+    "orig_markus": {
+        "bool": {
+            "must": [
+                {
+                    "term": {
+                        "publicState": {
+                            "value": "RELEASED"
+                        }
+                    }
+                },
+                {
+                    "bool": {
+                        "should": [
+                            {
+                                "range": {
+                                    "metadata.datePublishedInPrint": {
+                                        "gte": "2000||/y",
+                                        "lte": "2020||/y"
+                                    }
+                                }
+                            },
+                            {
+                                "range": {
+                                    "metadata.datePublishedOnline": {
+                                        "gte": "2000||/y",
+                                        "lte": "2020||/y"
+                                    }
+                                }
+                            },
+                            {
+                                "range": {
+                                    "metadata.dateAccepted": {
+                                        "gte": "2000||/y",
+                                        "lte": "2020||/y"
+                                    }
+                                }
+                            },
+                            {
+                                "range": {
+                                    "metadata.dateSubmitted": {
+                                        "gte": "2000||/y",
+                                        "lte": "2020||/y"
+                                    }
+                                }
+                            },
+                            {
+                                "range": {
+                                    "metadata.dateModified": {
+                                        "gte": "2000||/y",
+                                        "lte": "2020||/y"
+                                    }
+                                }
+                            },
+                            {
+                                "range": {
+                                    "metadata.dateCreated": {
+                                        "gte": "2000||/y",
+                                        "lte": "2020||/y"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "bool": {
+                        "should": [
+                            {
+                                "term": {
+                                    "files.metadata.contentCategory.keyword": {
+                                        "value": "post-print"
+                                    }
+                                }
+                            },
+                            {
+                                "nested": {
+                                    "path": "files",
+                                    "query": {
+                                        "bool": {
+                                            "must": [
+                                                {
+                                                    "term": {
+                                                        "files.visibility": {
+                                                            "value": "PUBLIC"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "term": {
+                                                        "files.metadata.contentCategory.keyword": {
+                                                            "value": "publisher-version"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "bool": {
+                                    "must": [
+                                        {
+                                            "term": {
+                                                "files.metadata.contentCategory.keyword": {
+                                                    "value": "any-fulltext"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "term": {
+                                                "metadata.identifiers.type": {
+                                                    "value": "DOI"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
