@@ -66,7 +66,7 @@ CREATE TABLE public.publications (
     pure_oa_status character varying,
     openalex_oa_status character varying,
     openalex_oa character varying,
-    manual_download boolean,  
+    manual_download boolean,
     discoverable boolean,
     pure_genre character varying,
     openalex_type character varying,
@@ -120,4 +120,3 @@ ALTER TABLE ONLY public.publication_pdf_urls
 --
 -- PostgreSQL database dump complete
 --
-

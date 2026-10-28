@@ -1,3 +1,12 @@
+extend-exclude = [
+  "deprecated",
+  "evaluation",
+  "UI",
+  "full_workflow_evaluation.py",
+  "pgadmin",
+  "pgdata"
+]
+
 line-length = 120
 
 # Assume Python 3.13
