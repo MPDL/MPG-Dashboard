@@ -1,42 +1,42 @@
-import requests
-import json
+# import requests
+# import json
 import dotenv
 import os
 import psycopg
 from datetime import datetime
 
 dotenv.load_dotenv()
-DB_HOST = os.getenv("DB_HOST")
-DB_NAME = os.getenv("DB_NAME")
-DB_USER = os.getenv("DB_USER")
-DB_PWD = os.getenv("DB_PWD")
-DB_PORT = os.getenv("DB_PORT")
+DB_HOST = os.getenv('DB_HOST')
+DB_NAME = os.getenv('DB_NAME')
+DB_USER = os.getenv('DB_USER')
+DB_PWD = os.getenv('DB_PWD')
+DB_PORT = os.getenv('DB_PORT')
 
 # Use psycopg3's modern connection and context management
-connection_string = f"postgresql://{DB_USER}:{DB_PWD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
+connection_string = f'postgresql://{DB_USER}:{DB_PWD}@{DB_HOST}:{DB_PORT}/{DB_NAME}'
 
 
 def normalize_date(date_str):
     if len(date_str) == 4:  # %Y
-        return f"{date_str}-01-01"
+        return f'{date_str}-01-01'
     elif len(date_str) == 7:  # %Y-%M
-        return f"{date_str}-01"
+        return f'{date_str}-01'
     return date_str  # %Y-%M-%D
 
 
 def get_publications(start_date, end_date, genres):
-  missing_genres = set(["OTHERS", "BOOK_ITEM", "CONFERENCE_PAPER", "ARTICLE"]) - set(genres)
+  missing_genres = set(['OTHERS', 'BOOK_ITEM', 'CONFERENCE_PAPER', 'ARTICLE']) - set(genres)
 
-  str_start_date = start_date.strftime("%Y-%m-%d")
-  str_end_date = end_date.strftime("%Y-%m-%d")
+  str_start_date = start_date.strftime('%Y-%m-%d')
+  str_end_date = end_date.strftime('%Y-%m-%d')
 
   str_end_date = normalize_date(str_end_date)
   str_start_date = normalize_date(str_start_date)
 
   sql_query = None
 
-  if "OTHERS" in genres:
-    sql_query = """
+  if 'OTHERS' in genres:
+    sql_query = '''
     SELECT object_id, date
     FROM publications
     WHERE (
@@ -49,10 +49,10 @@ def get_publications(start_date, end_date, genres):
         -- Match for YYYY format
         LENGTH(date) = 4 AND DATE(date || '-01-01') >= %s AND DATE(date || '-01-01') < %s
     )) AND NOT (genre = ANY(%s));
-    """
+    '''
   else:
     missing_genres = set(genres)
-    sql_query = """
+    sql_query = '''
     SELECT object_id, date
     FROM publications
     WHERE (
@@ -65,7 +65,7 @@ def get_publications(start_date, end_date, genres):
         -- Match for YYYY format
         LENGTH(date) = 4 AND DATE(date || '-01-01') >= %s AND DATE(date || '-01-01') < %s
     )) AND genre = ANY(%s);
-    """
+    '''
 
 
   with psycopg.connect(connection_string) as conn:
@@ -76,15 +76,15 @@ def get_publications(start_date, end_date, genres):
 
 
 def get_oa_publications(start_date, end_date, open_access, genres):
-  str_start_date = start_date.strftime("%Y-%m-%d")
-  str_end_date = end_date.strftime("%Y-%m-%d")
-  missing_genres = set(["OTHERS", "BOOK_ITEM", "CONFERENCE_PAPER", "ARTICLE"]) - set(genres)
+  str_start_date = start_date.strftime('%Y-%m-%d')
+  str_end_date = end_date.strftime('%Y-%m-%d')
+  missing_genres = set(['OTHERS', 'BOOK_ITEM', 'CONFERENCE_PAPER', 'ARTICLE']) - set(genres)
 
   str_end_date = normalize_date(str_end_date)
   str_start_date = normalize_date(str_start_date)
 
-  if "OTHERS" in genres:
-    sql_query = """
+  if 'OTHERS' in genres:
+    sql_query = '''
     SELECT object_id, date, open_access
     FROM publications
     WHERE (
@@ -98,10 +98,10 @@ def get_oa_publications(start_date, end_date, open_access, genres):
         (LENGTH(date) = 4 AND DATE(date || '-01-01') >= %s AND DATE(date || '-01-01') < %s)
     )
     AND open_access = %s AND NOT (genre = ANY(%s));
-    """
+    '''
   else:
     missing_genres = set(genres)
-    sql_query = """
+    sql_query = '''
     SELECT object_id, date, open_access
     FROM publications
     WHERE (
@@ -115,7 +115,7 @@ def get_oa_publications(start_date, end_date, open_access, genres):
         (LENGTH(date) = 4 AND DATE(date || '-01-01') >= %s AND DATE(date || '-01-01') < %s)
     )
     AND open_access = %s AND genre = ANY(%s);
-    """
+    '''
 
   with psycopg.connect(connection_string) as conn:
       with conn.cursor() as cursor:
@@ -139,4 +139,3 @@ def extract_month_year(date_str):
             except ValueError:
                 return None  # Handle invalid formats
     return date.strftime('%Y-%m')
-  

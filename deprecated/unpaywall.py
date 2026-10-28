@@ -1,8 +1,8 @@
 import requests
-import json 
+import json
 import validators
 import os
-import uuid 
+import uuid
 
 #x = requests.get('https://api.unpaywall.org/v2/search?query="Das Event Horizon Telescope"&email=matthiesen@mpdl.mpg.de')
 #data = x.json()
@@ -13,16 +13,16 @@ import uuid
 
 def get_pdf_url(unpaywall_json):
     try:
-        return unpaywall_json["best_oa_location"]["url_for_pdf"]
+        return unpaywall_json['best_oa_location']['url_for_pdf']
     except:
-        return unpaywall_json["doi"]
+        return unpaywall_json['doi']
 
 def get_pdf_urls(unpaywall_json):
     pdf_urls = []
-    for entry in unpaywall_json["oa_locations"]:
+    for entry in unpaywall_json['oa_locations']:
         try:
-            if entry["url_for_pdf"] is not None:
-                pdf_urls.append(entry["url_for_pdf"])
+            if entry['url_for_pdf'] is not None:
+                pdf_urls.append(entry['url_for_pdf'])
         except:
             pass
     #print(pdf_urls)
@@ -30,9 +30,9 @@ def get_pdf_urls(unpaywall_json):
 
 def get_paper_title(unpaywall_json):
     try:
-        return unpaywall_json["title"]
+        return unpaywall_json['title']
     except:
-        return "No title found"
+        return 'No title found'
 
 def iterate_over_unpaywall_jsons(unpaywall_jsons):
     pdf_urls = []
@@ -64,23 +64,23 @@ def save_url_to_file(urls, destination, filename):
         try:
             response = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'})
             response.raise_for_status()  # Raise an exception for 4xx and 5xx status codes
-            
+
             if 'application/pdf' in response.headers.get('Content-Type', ''):
-                
+
                 try:
-                    print("Saving PDF: ", filename, " from URL: ", url, " with content length of: ", len(response.content))
+                    print('Saving PDF: ', filename, ' from URL: ', url, ' with content length of: ', len(response.content))
                     with open(destination + filename, 'wb') as f:
                         f.write(response.content)
                         return True
                 except:
-                    with open(destination + str(uuid.uuid4()) + ".pdf", 'wb') as f:
+                    with open(destination + str(uuid.uuid4()) + '.pdf', 'wb') as f:
                         f.write(response.content)
                         return True
             else:
-                print("The response does not contain a PDF.", url)
+                print('The response does not contain a PDF.', url)
                 # You might want to handle this case differently based on your requirement
         except requests.exceptions.RequestException as e:
-            print("Error occurred while fetching the URL:", e)
+            print('Error occurred while fetching the URL:', e)
             # You might want to handle this error more specifically
 
 
@@ -88,9 +88,9 @@ def save_all_urls_to_files(dict_of_urls, destination):
     for title in dict_of_urls:
         #print("Title: ", title, " Title_check: ", title is not None)
         if title is not None:
-            save_url_to_file(dict_of_urls[title], destination, title+".pdf")
+            save_url_to_file(dict_of_urls[title], destination, title+'.pdf')
         else:
-            save_url_to_file(dict_of_urls[title], destination, str(uuid.uuid4())+".pdf")
+            save_url_to_file(dict_of_urls[title], destination, str(uuid.uuid4())+'.pdf')
 
 def check_valid_pdf(directory, pdf):
     file_stats = os.stat(directory + pdf)
@@ -105,11 +105,11 @@ def remove_invalid_pdfs(directory):
             os.remove(directory + pdf)
 
 
-data_in_json = read_jsonl_to_list_of_dicts("./unpaywall/all_results_publication_with_doi.jsonl")
+data_in_json = read_jsonl_to_list_of_dicts('./unpaywall/all_results_publication_with_doi.jsonl')
 iterated_data = iterate_over_unpaywall_jsons(data_in_json)
-print("Anzahl der Einträge: ", len(iterated_data))
+print('Anzahl der Einträge: ', len(iterated_data))
 #pdf_urls = filter_dict_for_pdf_urls(iterated_data)
 #print("Anzahl der PDFs: ",len(pdf_urls))
-save_all_urls_to_files(iterated_data, "./unpaywall/pdf/")
+save_all_urls_to_files(iterated_data, './unpaywall/pdf/')
 
 #remove_invalid_pdfs("./unpaywall/pdf/") #269 currently -> 176
