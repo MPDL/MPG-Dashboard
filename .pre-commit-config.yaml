@@ -29,6 +29,7 @@ repos:
       - id: typos
         exclude: |
           (?x)^(
+            UI/dashboard/app.py|
             UI/.*.csv|
             tests/.*.json
           )$
