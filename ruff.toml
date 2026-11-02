@@ -25,3 +25,6 @@ select = [
   "W",    # pycodestyle
   "YTT",  # flake8-2020
 ]
+
+[format]
+quote-style = "single"
