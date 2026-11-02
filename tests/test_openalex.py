@@ -12,18 +12,18 @@ def load_fixture(name):
 
 
 def test_filter_results_by_article_name_and_year():
-    '''Tests OpenAlex matches have:
+    """Tests OpenAlex matches have:
     - a perfect match* or similar enough** title compared to PuRe title
     - a publication year within a 3-year window of the PuRe publication year
 
     *lev distance of 0
     **weighted lev distance of max 2
 
-    '''
+    """
 
     # COMPLETE MISMATCH
     article_name = (
-        'Understanding spin relaxation and magnetization transfer in ex vivo ' \
+        'Understanding spin relaxation and magnetization transfer in ex vivo '
         'white matter using an unconstrained four-pool model analysis',
     )
     publication_year = 2021
@@ -47,7 +47,7 @@ def test_filter_results_by_article_name_and_year():
 
 
 def test_string_transformation_unescapes_and_normalizes_text():
-    '''Tests title normalization because fuzzy matching must ignore HTML entities, case, and punctuation.'''
+    """Tests title normalization because fuzzy matching must ignore HTML entities, case, and punctuation."""
     assert openalex.string_transformation('A&amp; B <sub>2</sub>!') == 'absub2sub'
     assert openalex.string_transformation(None) == ''
 

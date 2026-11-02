@@ -7,7 +7,7 @@ TEST_DATA = Path(__file__).parent / 'test_data' / 'pure'
 
 
 def load_publication(filename, index=0):
-    '''Load a single publication record from a PuRe API response fixture.'''
+    """Load a single publication record from a PuRe API response fixture."""
     with (TEST_DATA / filename).open(encoding='utf-8') as file:
         data = json.load(file)
     return data['records'][index]
@@ -22,7 +22,7 @@ def test_get_doi_from_publication_returns_doi_url():
 
 
 def test_get_doi_from_publication_returns_none_without_top_level_doi():
-    '''DOI exists nested under a source, but not under metadata.identifiers.'''
+    """DOI exists nested under a source, but not under metadata.identifiers."""
     publication = load_publication('pure_publication_without_doi.json')
     assert PuRe.get_doi_from_publication(publication) is None
 
