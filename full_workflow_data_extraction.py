@@ -142,13 +142,13 @@ def process_publications(publication, db_manager):
         return
 
     # Extract relevant fields from the publication
-    doi = publication['doi']
-    title = publication['title']
-    publication_year = publication['publication_year']
-    pure_id = publication['pure_id']
-    genre = publication['genre']
-    publisher = publication['publisher']
-    publication_date = publication['publication_date']
+    doi = publication.get('doi')
+    title = publication.get('title')
+    publication_year = publication.get('publication_year')
+    pure_id = publication.get('pure_id')
+    genre = publication.get('genre')
+    publisher = publication.get('publisher')
+    publication_date = publication.get('publication_date')
 
     # Call the full workflow for each publication
     full_workflow(doi, title, publication_year, db_manager, pure_id, genre, publisher, publication_date)

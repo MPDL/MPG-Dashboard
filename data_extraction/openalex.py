@@ -138,7 +138,7 @@ def filter_results_by_article_name_and_year(article_name, publication_year, resu
     matches = []
     for entry in results:
         if entry['title'] is not None:
-            # print(f'entry title: {entry['title']}')
+            # print(f'entry title: {entry["title"]}')
             word_count_entry_title = len(entry.get('title', '').split())
             entry_title = string_transformation(entry.get('title', ''))
             print(f'    entry title: {entry_title}')
