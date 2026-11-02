@@ -23,10 +23,11 @@ def test_filter_results_by_article_name_and_year():
 
     # COMPLETE MISMATCH
     article_name = (
-        'Understanding spin relaxation and magnetization transfer in ex vivo white matter using an unconstrained four-pool model analysis',
+        'Understanding spin relaxation and magnetization transfer in ex vivo ' \
+        'white matter using an unconstrained four-pool model analysis',
     )
     publication_year = 2021
-    results = load_fixture('openalex_title_missmatches.json').get('results')
+    results = load_fixture('openalex_title_mismatches.json').get('results')
 
     assert openalex.filter_results_by_article_name_and_year(article_name, publication_year, results) == []
 
