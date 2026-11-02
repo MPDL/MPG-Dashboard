@@ -3,24 +3,25 @@ import time
 
 import requests
 from bs4 import BeautifulSoup
+from selenium.common.exceptions import WebDriverException  # , NoSuchElementException, StaleElementReferenceException
 from selenium.webdriver.common.by import By
-from selenium.common.exceptions import NoSuchElementException
-from selenium.common.exceptions import StaleElementReferenceException
 
-from selenium.common.exceptions import WebDriverException
-from selenium_driver.selenium_driver import instanciate_driver, quit_driver
-# from selenium_driver.selenium_driver import instanciate_driver, quit_driver
+from selenium_driver.selenium_driver import instantiate_driver, quit_driver
+
+# matches http(s)://{any character but whitespace " , { } [ ]}.pdf(#page={number})
+pdf_url_regex = r'https?:\/\/[^\s",{}\[\]]+?\.pdf(?:#page=\d+)?'
+
 
 def find_a_tags(response_text, response_url):
-    print(f'    find_a_tag()')
-    '''Get all a tags with an href. 
+    print('    find_a_tag()')
+    """Get all a tags with an href.
     Return all href whose a tag's text or its preceding tag's text contain 'pdf'.
     If the href has a relative link, prepend the page's domain.
-    '''
-    
+    """
+
     soup = BeautifulSoup(response_text, 'html.parser')
     a_tags = soup.find_all('a', href=True)
-    
+
     pdf_links = []
     for i, t in enumerate(a_tags):
         t_href = t['href']
@@ -30,13 +31,15 @@ def find_a_tags(response_text, response_url):
         p_sibling_descendants = p_sibling.descendants if p_sibling is not None else []
         p_sibling_descendants = [d for d in p_sibling_descendants if isinstance(d, str)]
         p_sibling_text = ''.join(p_sibling_descendants)
-        
-        if ('pdf' in t_text.lower() or 'pdf' in p_sibling_text.lower()):
-            absolute_path = re.compile(r'https?:\/\/\S+').match(t_href) # href starts with http(s)://
-            if absolute_path: 
+
+        if 'pdf' in t_text.lower() or 'pdf' in p_sibling_text.lower():
+            absolute_path = re.compile(r'https?:\/\/\S+').match(t_href)  # href starts with http(s)://
+            if absolute_path:
                 pdf_links.append(t_href)
             else:
-                match = re.compile(r'https?:\/\/(www\.)?([^\/]+)').match(response_url) # get main page from response_url
+                match = re.compile(r'https?:\/\/(www\.)?([^\/]+)').match(
+                    response_url
+                )  # get main page from response_url
                 if match:
                     prefix = match.group()
                     a_path = f'{prefix}{t_href}' if t_href.startswith('/') else f'{prefix}/{t_href}'
@@ -47,16 +50,17 @@ def find_a_tags(response_text, response_url):
 
     return pdf_links
 
+
 def find_a_tags_selenium(driver, current_url):
     print('find_a_tags_selenium()')
-    '''Selenium workflow. Get all a tags with an href. 
+    """Selenium workflow. Get all a tags with an href.
     Return all href whose a tag's text or its preceding tag's text contain 'pdf'.
     If the href has a relative link, prepend the page's domain.
-    '''
+    """
 
     a_tags = driver.find_elements(By.TAG_NAME, 'a')
     pdf_links = []
-    
+
     # Find all a tags and save href if pdf in tag.text
     for i, tag in enumerate(a_tags):
         try:
@@ -64,16 +68,16 @@ def find_a_tags_selenium(driver, current_url):
             if t_href is None:
                 continue
             if 'pdf' in tag.text.lower():
-                absolute_path = re.compile(r'https?:\/\/\S+').match(t_href) # href starts with http(s)://
+                absolute_path = re.compile(r'https?:\/\/\S+').match(t_href)  # href starts with http(s)://
                 if absolute_path:
                     pdf_links.append(t_href)
                 else:
-                    match = re.compile(r'https?:\/\/(www\.)?([^\/]+)').match(current_url) # get main page from home_url
+                    match = re.compile(r'https?:\/\/(www\.)?([^\/]+)').match(current_url)  # get main page from home_url
                     if match:
                         prefix = match.group()
                         a_path = f'{prefix}{t_href}' if t_href.startswith('/') else f'{prefix}/{t_href}'
                         pdf_links.append(a_path)
-        
+
         except Exception as e:
             print(f'    selenium - Error finding a tags: {e}')
             continue
@@ -84,41 +88,47 @@ def find_a_tags_selenium(driver, current_url):
     if len(pdf_links) == 0:
         # Find all <a> tags preceded by any element that contains 'pdf' in their text
         # https://www.browserstack.com/guide/find-elements-by-text-in-selenium-with-python
-        more_a_tags = driver.find_elements(By.XPATH, "//*[contains(text(), 'PDF') or contains(text(), 'pdf')]/following-sibling::a")
+        more_a_tags = driver.find_elements(
+            By.XPATH, '//*[contains(text(), "PDF") or contains(text(), "pdf")]/following-sibling::a'
+        )
 
         for i, tag in enumerate(more_a_tags):
             try:
                 t_href = tag.get_attribute('href')
                 if t_href is None:
                     continue
-                absolute_path = re.compile(r'https?:\/\/\S+').match(t_href) # href starts with http(s)://
+                absolute_path = re.compile(r'https?:\/\/\S+').match(t_href)  # href starts with http(s)://
                 if absolute_path:
                     pdf_links.append(t_href)
                 else:
-                    match = re.compile(r'https?:\/\/(www\.)?([^\/]+)').match(current_url) # get main page from home_url
+                    match = re.compile(r'https?:\/\/(www\.)?([^\/]+)').match(current_url)  # get main page from home_url
                     if match:
                         prefix = match.group()
                         a_path = f'{prefix}{t_href}' if t_href.startswith('/') else f'{prefix}/{t_href}'
                         pdf_links.append(a_path)
-            
+
             except Exception as e:
                 print(f'    selenium - Error finding a tags preceded by pdf: {e}')
                 continue
 
             if i > 1000:
                 break
-    
+
     return pdf_links
+
 
 def find_paper_url_selenium(home_url, driver):
     print('find_paper_url_selenium()')
-    '''Selenium workflow. Get all pdf links found in home_url. '''
+    """Selenium workflow. Get all pdf links found in home_url. """
 
     print('SELENIUM')
     if home_url.endswith('.pdf'):
         return [home_url]
 
-    ignored_exceptions=(NoSuchElementException,StaleElementReferenceException,)
+    # ignored_exceptions = (
+    #     NoSuchElementException,
+    #     StaleElementReferenceException,
+    # )
 
     # 1. Check if home_url is itself a pdf
     driver.get(home_url)
@@ -138,7 +148,7 @@ def find_paper_url_selenium(home_url, driver):
     # print('')
     # print('')
     # print('')
-    pdf_links = re.findall(re.compile(r'https?:\/\/[^\s",{}\[\]]+?\.pdf(?:#page=\d+)?'), page_source) # matches http(s)://{any character but whitespace " , { } [ ]}.pdf(#page={number})
+    pdf_links = re.findall(re.compile(pdf_url_regex), page_source)
 
     # 3. Search for all a tags with an href and append href links if
     # a.string contains 'pdf' (case insensitive) or
@@ -152,11 +162,12 @@ def find_paper_url_selenium(home_url, driver):
         pdf_links = list(set(pdf_links))
         print(f'    SELENIUM - found {len(pdf_links)} pdfs')
         return pdf_links
-    
+
     return False
 
-def find_pdf_urls(home_url): #, driver):
-    '''Get all pdf links found in home_url. '''
+
+def find_pdf_urls(home_url):  # , driver):
+    """Get all pdf links found in home_url."""
 
     print('find_pdf_urls()')
     print(f'url: {home_url}')
@@ -165,11 +176,11 @@ def find_pdf_urls(home_url): #, driver):
         response = requests.get(home_url)
         response.raise_for_status()
 
-        # 1. Check if home_url redirects to pdf or is itself a pdf 
+        # 1. Check if home_url redirects to pdf or is itself a pdf
         response_url = response.url
         content_type = response.headers['Content-Type']
-        if re.compile(r'https?:\/\/[^\s]+?\.pdf(?:#page=\d+)?').match(response_url) or 'application/pdf' in content_type:
-            print(f'    home_url is pdf_url')
+        if re.compile(pdf_url_regex).match(response_url) or 'application/pdf' in content_type:
+            print('    home_url is pdf_url')
             return [response_url]
 
         # 2. Search for all http(s) links ending with '.pdf' or '.pdf#page={number}'
@@ -180,9 +191,9 @@ def find_pdf_urls(home_url): #, driver):
         # print('')
         # print('')
         # print('')
-        pdf_links = re.findall(re.compile(r'https?:\/\/[^\s",{}\[\]]+?\.pdf(?:#page=\d+)?'), response.text) # matches http(s)://{any character but whitespace " , { } [ ]}.pdf(#page={number})
+        pdf_links = re.findall(re.compile(pdf_url_regex), response.text)
         print(f'    len(pdf_links found): {len(pdf_links)}')
-        
+
         # 3. Search for all a tags with an href and append href links if
         # a.string contains 'pdf' (case insensitive) or
         # preceding sibling is any element whose string contains 'pdf' (case insensitive)
@@ -197,11 +208,11 @@ def find_pdf_urls(home_url): #, driver):
     except requests.exceptions.RequestException as e:
         print(f'    requests - error occurred: {e}')
 
-        # If request with library "requests" did not work or no pdf link was found, try out selenium workflow
+        # If request with library 'requests' did not work or no pdf link was found, try out selenium workflow
         try:
-            print('instanciating selenium')
-            driver = instanciate_driver()
-            print('finished instanciating selenium')  
+            print('instantiating selenium')
+            driver = instantiate_driver()
+            print('finished instantiating selenium')
             pdf_links_selenium = find_paper_url_selenium(home_url, driver)
             print('quitting selenium')
             quit_driver(driver)
@@ -214,7 +225,7 @@ def find_pdf_urls(home_url): #, driver):
     # if selenium workflow also unsuccessful, log the home_url
     with open('NotCapableOfAccessing.txt', 'a') as file:
         file.write(home_url + '\n')
-    
+
     return False
 
 
@@ -224,7 +235,7 @@ def find_pdf_urls(home_url): #, driver):
 
 #     if home_url.endswith('.pdf'):
 #         return [home_url]
-    
+
 #     # print(f'    Fetching URL: {home_url}')
 #     ignored_exceptions=(NoSuchElementException,StaleElementReferenceException,)
 
@@ -236,7 +247,7 @@ def find_pdf_urls(home_url): #, driver):
 #     print(f'    Found {len(a_tags)} <a> tags on the page.')
 #     # Print the href attributes and the text of all <a> tags
 #     pdf_links = []
-    
+
 #     counter = 0
 #     for tag in a_tags:
 #         counter += 1
@@ -245,7 +256,7 @@ def find_pdf_urls(home_url): #, driver):
 #                 continue
 #             if tag.get_attribute('href').endswith('pdf') or tag.text.lower().startswith == 'pdf':
 #                 # print(f'    Text: {tag.text}, Href: {tag.get_attribute('href')}')
-                
+
 #                 pdf_links.append(tag.get_attribute('href'))
 #         except Exception as e:
 #             print(f'    error: {e}')
@@ -255,7 +266,7 @@ def find_pdf_urls(home_url): #, driver):
 
 #     if len(pdf_links) > 0:
 #         return pdf_links
-    
+
 #     file = open('NotCapableOfAccessing.txt', 'a')
 #     file.write(home_url + '\n')
 #     file.close()
