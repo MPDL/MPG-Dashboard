@@ -90,7 +90,7 @@ def eval_directory_for_software_mentions(directory):
     for file in os.listdir(directory):
         filename = os.fsdecode(file)
         evaluation = eval_file_software_mentions(filename)
-        print('Evalution', evaluation)
+        print('Evaluation', evaluation)
         evaluations.append(evaluation)
         write_dict_list_to_json(evaluations, 'evaluations.json')
         simple_total_number_analysis_of_evaluations_list(evaluations)
@@ -110,7 +110,7 @@ def eval_directory(directory, type_of_eval, eval_file):
                 print('Already evaluated', filename)
                 continue
             evaluation = eval_data_mentions(filename, directory)
-        print('Evalution', evaluation)
+        print('Evaluation', evaluation)
         evaluations.append(evaluation)
         write_dict_list_to_json(evaluations, eval_file)
         simple_total_number_analysis_of_evaluations_list(evaluations, type_of_eval)
